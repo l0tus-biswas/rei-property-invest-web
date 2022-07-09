@@ -40,10 +40,8 @@ function Navbar() {
                                
                                 </li>
                                 <li className="nav-item">
-                                <Link to="/pricing" className="nav-link">Pricing</Link>
-                               
-                                    {/* <a className="nav-link" href="/pricing.html">Pricing</a> */}
-                                </li>
+                                <Link to="/pricing" className="nav-link">Pricing</Link>     
+                               </li>
                             </ul>
                             <div>
                                 <button type="button" className="btn btn-orange me-2 ">Let's Talk Business</button>

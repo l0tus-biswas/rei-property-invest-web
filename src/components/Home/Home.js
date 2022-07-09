@@ -3,29 +3,57 @@ import underlineOrange from "../../assets/images/home/underline-orange.svg"
 import podioIntro from "../../assets/images/podio-intro.png"
 import podioShape from "../../assets/images/podio-shape.png"
 import globiflowShape from "../../assets/images/globiflow-shape.jpg"
+import anujDev from "../../assets/images/developers/anuj.jpg"
+import whyus from "../../assets/images/reasons-to-choose-us/whyus.png"
+import cusstomization from "../../assets/images/what-do-we-do/cusstomization.png"
+import integration from "../../assets/images/what-do-we-do/integration.png"
+import automation from "../../assets/images/what-do-we-do/automation.png"
+import analysis from "../../assets/images/what-do-we-do/analysis.png"
+import realEstateCRM from "../../assets/images/industry-specifc-custom/Real-estate-crm.png"
+import retailCRM from "../../assets/images/industry-specifc-custom/Retail-CRM.png"
+import manufactureringCRM from "../../assets/images/industry-specifc-custom/Manufacturing-CRM.png"
+import field_serviceCRM from "../../assets/images/industry-specifc-custom/Field-service-managment-crm.png"
+import travel_hos_CRM  from "../../assets/images/industry-specifc-custom/Travel_&_hospitality-crm.png"
+import solarCRM from "../../assets/images/industry-specifc-custom/Solar-industry-CRM.png"
+import image1 from "../../assets/images/integration/1621276243.png"
+import docusign from "../../assets/images/integration/docusign.png"
+import globiflow from "../../assets/images/integration/globiflow-shape.jpg"
+import image2 from "../../assets/images/integration/UY7DlO0a_400x400.png"
+import twilio from "../../assets/images/integration/Twilio_SMS_Logo__1_.jpg"
+import image3 from "../../assets/images/integration/social.png"
+import integromat from "../../assets/images/integration/Integromat-logo.png"
+import mcLogo from "../../assets/images/integration/MC_Logo.jpg"
+import image4 from "../../assets/images/integration/KRgw2UkV_400x400.jpg"
+import enhanceIcon from "../../assets/images/services/enchance-icon.png"
+import enhance_expand from "../../assets/images/services/enhance_expand.png"
+import customize_icon from "../../assets/images/services/customize-icon.png"
+import customize from "../../assets/images/services/customize.png"
+import underline_black from "../../assets/images/svg/line-shape-1.svg"
+
+
 
 function Home() {
     return (
         <>
-            <section class="front-intro bg-deepNavyBlue text-white pt-5">
-                <div class="container">
-                    <div class="row gx-lg-5 gx-sm-2 ">
-                        <div class="col-lg-6 col-md-12 col-12 order-2 order-lg-1 my-auto">
-                            <div class="mt-4 mt-md-4 mt-lg-0">
+            <section className="front-intro bg-deepNavyBlue text-white pt-5">
+                <div className="container">
+                    <div className="row gx-lg-5 gx-sm-2 ">
+                        <div className="col-lg-6 col-md-12 col-12 order-2 order-lg-1 my-auto">
+                            <div className="mt-4 mt-md-4 mt-lg-0">
                                 <h1>Citrix Podio</h1>
-                                <img src={underlineOrange} alt="" class="underline-head" />
-                                <h1 class="mb-4">Customization Services</h1>
+                                <img src={underlineOrange} alt="" className="underline-head" />
+                                <h1 className="mb-4">Customization Services</h1>
 
-                                <p class="fs-3 mb-4">Get your CRM customization done right and maximize your Podio Investment</p>
-                                <button type="button" class="btn btn-orange me-2 mb-2 col-12">Get Started</button>
-                                <button type="button" class="btn btn-outline-orange col-12">Schedule a Meeting</button>
+                                <p className="fs-3 mb-4">Get your CRM customization done right and maximize your Podio Investment</p>
+                                <button type="button" className="btn btn-orange me-2 mb-2 col-12">Get Started</button>
+                                <button type="button" className="btn btn-outline-orange col-12">Schedule a Meeting</button>
                             </div>
 
                         </div>
-                        <div class="col-lg-6 col-md-12 col-12 order-1 order-lg-2 my-auto">
-                            <div class="intro-img">
-                                <img src={podioIntro} class="img-fluid" alt="" />
-                                <div class="shapes">
+                        <div className="col-lg-6 col-md-12 col-12 order-1 order-lg-2 my-auto">
+                            <div className="intro-img">
+                                <img src={podioIntro} className="img-fluid" alt="" />
+                                <div className="shapes">
                                     <img src={podioShape} alt="" />
                                     <img src={globiflowShape} alt="" />
 
@@ -61,6 +89,480 @@ function Home() {
                     d="M0,40L48,36.7C96,33,192,27,288,40C384,53,480,87,576,96.7C672,107,768,93,864,96.7C960,100,1056,120,1152,110C1248,100,1344,60,1440,36.7C1536,13,1632,7,1728,33.3C1824,60,1920,120,2016,143.3C2112,167,2208,153,2304,146.7C2400,140,2496,140,2592,116.7C2688,93,2784,47,2880,40C2976,33,3072,67,3168,90C3264,113,3360,127,3456,130C3552,133,3648,127,3744,130C3840,133,3936,147,4032,156.7C4128,167,4224,173,4320,173.3C4416,173,4512,167,4608,136.7C4704,107,4800,53,4896,36.7C4992,20,5088,40,5184,63.3C5280,87,5376,113,5472,113.3C5568,113,5664,87,5760,90C5856,93,5952,127,6048,140C6144,153,6240,147,6336,136.7C6432,127,6528,113,6624,106.7C6720,100,6816,100,6864,100L6912,100L6912,200L6864,200C6816,200,6720,200,6624,200C6528,200,6432,200,6336,200C6240,200,6144,200,6048,200C5952,200,5856,200,5760,200C5664,200,5568,200,5472,200C5376,200,5280,200,5184,200C5088,200,4992,200,4896,200C4800,200,4704,200,4608,200C4512,200,4416,200,4320,200C4224,200,4128,200,4032,200C3936,200,3840,200,3744,200C3648,200,3552,200,3456,200C3360,200,3264,200,3168,200C3072,200,2976,200,2880,200C2784,200,2688,200,2592,200C2496,200,2400,200,2304,200C2208,200,2112,200,2016,200C1920,200,1824,200,1728,200C1632,200,1536,200,1440,200C1344,200,1248,200,1152,200C1056,200,960,200,864,200C768,200,672,200,576,200C480,200,384,200,288,200C192,200,96,200,48,200L0,200Z">
                 </path>
             </svg>
+
+            <section className="what-do-we-do my-5">
+                <div className="container bg-navyBlue py-5  rounded-4">
+                    <div className="row text-center mb-3">
+                        <div className="col-12">
+                            <h1 className="intro-sub-head">WHAT WE DO</h1>
+                        </div>
+                        <div className="col-12">
+                            <h1 className="fs-1">We help you to elevate your Real Estate Business using Podio</h1>
+
+                        </div>
+                    </div>
+                    <div className="row justify-content-center mx-lg-5 mx-2 gx-lg-3 gy-lg-3 gx-2 gy-2">
+                        <div className="col-lg-5 col-md-5 d-flex  ">
+                            <div className="bg-white p-4 rounded-3">
+                                <div className="icon"><img src={cusstomization} alt="" className="mb-3" /></div>
+                                <h6 className="fw-bold   fs-5"><span>Citrix Podio Customization</span>
+                                </h6>
+                                <p className="fs-5 mt-3">Modeling your business processes to manage sales channels effectively.</p>
+                            </div>
+                        </div>
+                        <div className="col-lg-5 col-md-5 d-flex  ">
+                            <div className="bg-white p-4 rounded-3">
+                                <div className="icon"><img src={integration} alt="" className="mb-3" /></div>
+                                <h6 className="fw-bol fs-5"><span>Citrix Podio Integration</span>
+                                </h6>
+                                <p className="fs-5  mt-3"> Customize and integrate with the best business 3rd party
+                                    applications. </p>
+                            </div>
+                        </div>
+                        <div className="col-lg-5 col-md-5 d-flex   ">
+                            <div className="bg-white p-4 rounded-3">
+                                <div className="icon"><img src={automation} alt="" className="mb-3" /></div>
+                                <h6 className="fw-bold fs-5"><span>Citrix Podio Automation</span>
+                                </h6>
+                                <p className="fs-5  mt-3">Make your business automated end to end through our services.</p>
+                            </div>
+                        </div>
+                        <div className="col-lg-5 col-md-5 d-flex   ">
+                            <div className="bg-white p-4 rounded-3">
+                                <div className="icon"><img src={analysis} alt="" className="mb-3" /></div>
+                                <h6 className="fw-bold fs-5"><span>Citrix Podio Analysis</span></h6>
+                                <p className="fs-5  mt-3">Analytics help you monitor every aspect of your sales cycle and plan targets in the
+                                    future </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+
+            <section className="why-choose-us mb-5">
+                <div className="container py-5  border">
+                    <div className="row gx-lg-5 gx-sm-2">
+                        <div className="col-lg-6 col-md-12 col-12 my-auto">
+                            <div className="mb-4 mb-md-4 mb-lg-0">
+                                <h1 className="intro-sub-head">GET STARTED IN MINUTES</h1>
+                                <h1 className="mb-4 fs-1">3 main Reasons to choose us.</h1>
+
+                                <div>
+                                    <div className="accordion accordion-flush" id="accordionFlushExample">
+                                        <div className="accordion-item">
+                                            <h2 className="accordion-header" id="flush-headingOne">
+                                                <button className="accordion-button" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#flush-collapseOne" aria-expanded="true"
+                                                    aria-controls="flush-collapseOne">
+                                                    <span className="fs-5 fw-bold">High Skilled Developers</span>
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseOne" className="accordion-collapse collapse show"
+                                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                                <div className="accordion-body fs-5">We are backed up with a team of experienced and
+                                                    certified PODIO developers who help clients get powerful solutions to boost
+                                                    their business productivity.</div>
+                                            </div>
+                                        </div>
+                                        <div className="accordion-item">
+                                            <h2 className="accordion-header" id="flush-headingTwo">
+                                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                                    aria-controls="flush-collapseTwo">
+                                                    <span className="fs-5 fw-bold">On Time Delivery</span>
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseTwo" className="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                                <div className="accordion-body fs-5">Our team ensures timely delivery of the projects.
+                                                    You
+                                                    can get cost efficient and fast-paced custom solutions to help you achieve your
+                                                    business objectives.</div>
+                                            </div>
+                                        </div>
+                                        <div className="accordion-item">
+                                            <h2 className="accordion-header" id="flush-headingThree">
+                                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                                    aria-controls="flush-collapseThree">
+                                                    <span className="fs-5 fw-bold">Maximum ROI</span>
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseThree" className="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                                <div className="accordion-body fs-5">Our team of PODIO experts delivers the best Podio
+                                                    CRM
+                                                    application development solutions. We ensure that our clients get the maximum
+                                                    ROI with custom PODIO develop services.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className="col-lg-6 col-md-12 col-12 my-auto mx-auto  ">
+                            <div className="intro-img">
+                                <img src={whyus} alt="" />
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </section>
+
+
+
+            <section className="ceo-say back-img mb-5">
+                <div className="container py-5 ">
+                    <div className="row gx-lg-5 gx-sm-2 d-flex justify-content-center ">
+                        <div className="col-lg-6 col-md-12 col-12 my-auto text-center">
+                            <div className="intro-img mb-4">
+                                <img src={anujDev} className="img-fluid rounded-circle" alt="" />
+                            </div>
+                            <div className="say">
+                                <img src="https://rei-property-invest.netlify.app/assets/images/icon/26.svg" alt="" />
+                                <h2>REI Property Invest unleashes the real power of Podio, and automation that allow you to scale
+                                    your Real Estate business quality.</h2>
+                                <p className="fs-4 mt-3">Anuj Kumar Kannojia.</p>
+                                <p className="fst-italic">CEO & Founder REI Property Invest</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="industry-specific-solution mb-5 ">
+                <div className="container py-5">
+                    <div className="row text-center mb-3">
+                        <div className="col-12">
+                            <h1 className="intro-sub-head">Industry Specific Podio Solutions</h1>
+                        </div>
+                        <div className="col-12">
+                            <h1 className="fs-1">Our developers have vast experience on customizations for various domains.</h1>
+
+                        </div>
+                    </div>
+                    <div className="row justify-content-center mx-lg-5 mx-2 gx-lg-3 gy-lg-3 gx-2 gy-2">
+                        <div className="col-lg-6 col-md-12 d-flex  ">
+                            <div className="bg-white p-4 borderLeft">
+                                <div className="d-flex align-items-start"><img
+                                    src={realEstateCRM} alt="icon" className="icon" />
+                                    <div className="text ps-3">
+                                        <h4>Real Estate CRM</h4>
+                                        <p className="fs-5">Enables businesses to manage and build stronger relationships with our
+                                            contacts, such as leads, prospects and existing customers. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-6 col-md-12 d-flex  ">
+                            <div className="bg-white p-4 borderLeft">
+                                <div className="d-flex align-items-start"><img src={retailCRM}
+                                    alt="icon" className="icon" />
+                                    <div className="text ps-3">
+                                        <h4>Retail CRM</h4>
+                                        <p className="fs-5">Organizes all your business's customers and leads so that you can easily stay in touch
+                                            with them in a trackable way. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-6 col-md-12 d-flex   ">
+                            <div className="bg-white p-4 borderLeft">
+                                <div className="d-flex align-items-start"><img
+                                    src={manufactureringCRM} alt="icon" className="icon" />
+                                    <div className="text ps-3">
+                                        <h4>Manufacturing CRM</h4>
+                                        <p className="fs-5">Helping manufacturers cut the time required to develop a product or service. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-6 col-md-12 d-flex   ">
+                            <div className="bg-white p-4 borderLeft">
+                                <div className="d-flex align-items-start"><img
+                                    src={field_serviceCRM} alt="icon"
+                                    className="icon" />
+                                    <div className="text ps-3">
+                                        <h4>Field Service Managment CRM</h4>
+                                        <p className="fs-5">Helps contact center managers keep operations running smoothly.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-6 col-md-12 d-flex   ">
+                            <div className="bg-white p-4 borderLeft">
+                                <div className="d-flex align-items-start"><img
+                                    src={travel_hos_CRM} alt="icon" className="icon" />
+                                    <div className="text ps-3">
+                                        <h4>Travel & Hospitality CRM</h4>
+                                        <p className="fs-5">Build personalized workflows with automation and manage customer's journeys efficiently.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-6 col-md-12 d-flex   ">
+                            <div className="bg-white p-4 borderLeft">
+                                <div className="d-flex align-items-start"><img
+                                    src={solarCRM} alt="icon" className="icon" />
+                                    <div className="text ps-3">
+                                        <h4>Solar CRM</h4>
+                                        <p className="fs-5">Helps you keep track of the contacts and projects in your sales pipeline.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <section className="front-integration bg-deepNavyBlue text-white mb-5">
+                <div className="container py-5">
+                    <div className="row gx-lg-5 gx-sm-2">
+                        <div className="col-lg-6 col-md-12 col-12 my-auto">
+                            <div className="mb-4 mb-md-4 mb-lg-0">
+                                <h1 className="intro-sub-head">20+ Integration</h1>
+                                <h1 className="mb-4 fs-1">Integrate Podio with the software you use every day</h1>
+                                <button type="button" className="btn btn-orange me-2 mb-2 col-lg-6 col-md-12 col-12">Check all our
+                                    integration</button>
+
+                            </div>
+
+                        </div>
+                        <div className="col-lg-6 col-md-12 col-12 my-auto mx-auto right-img ">
+                            <div className="marquee">
+                                <div className="marquee-content">
+                                    <div className="marquee-item">
+                                        <img src={image1} alt="" />
+                                    </div>
+
+                                    <div className="marquee-item">
+                                        <img src={docusign} alt="" />
+                                    </div>
+
+                                    <div className="marquee-item">
+                                        <img src={globiflow} alt=""/>
+                                    </div>
+
+                                    <div className="marquee-item">
+                                        <img src={image2} alt=""/>
+                                    </div>
+
+                                    <div className="marquee-item">
+                                        <img src={twilio} alt=""/>
+                                    </div>
+
+                                    <div className="marquee-item">
+                                        <img src={image3} alt=""/>
+                                    </div>
+
+
+                                    <div className="marquee-item">
+                                        <img src={integromat} alt=""/>
+                                    </div>
+
+
+                                    <div className="marquee-item">
+                                        <img src={mcLogo} alt=""/>
+                                    </div>
+
+                                    <div className="marquee-item">
+                                        <img src={image4} alt=""/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+            </section>
+
+            <section className="front-services mb-5">
+                <div className="container py-5  ">
+                    <div className="row text-center mb-3">
+                        <div className="col-12">
+                            <h1 className="intro-sub-head">SERVICES</h1>
+                        </div>
+                        <div className="col-12">
+                            <h1 className="fs-1">We help you to drive growth at your business</h1>
+
+                        </div>
+                    </div>
+                    <div className="row gx-lg-5 gx-sm-2">
+                        <div className="col-lg-5 col-md-12 col-12 order-lg-1 order-md-2 order-2 my-auto">
+                            <div className="mt-4 mt-md-4 mt-lg-0">
+                                <img src={enhanceIcon} className="services-icon " width="70" alt=""/>
+                                    <h4 className="mt-3">Enhance and Expand Your Business Processes </h4>
+                                    <p className="mt-3 fs-5">Our experienced Podio Certified consultants specializes in customized Podio
+                                        consulting, integration and implementation to a wide variety of industries that your CRM
+                                        strategy is designed and executed professionally, cost-effectively and with minimal disruption
+                                        to your business.</p>
+                            </div>
+
+                        </div>
+                        <div className="col-lg-7 col-md-12 col-12 order-lg-2 order-md-1 order-1 my-auto mx-auto  ">
+                            <div className="services-img">
+                                <img src={enhance_expand} className="rounded-4" alt=""/>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="separated my-5">
+                        <img src={underline_black} alt=""/>
+                    </div>
+                    <div className="row gx-lg-5 gx-sm-2">
+                        <div className="col-lg-5 col-md-12 col-12 order-lg-2 order-md-2 order-2 my-auto">
+                            <div className="mt-4 mt-md-4 mt-lg-0">
+                                <img src={customize_icon} className="services-icon" width="70" alt=""/>
+                                    <h4 className="mt-3">Customize, Optimize and Fine-Tune Your Podio</h4>
+                                    <p className="mt-3 fs-5">We know that off-the-shelf Citrix Podio cannot suffice your unique business needs
+                                        and not able to give the desired outcome, it has to be customized. Understanding your business
+                                        needs, we customize and provide Podio solutions at affordable prices. We guarantee performance
+                                        efficiency and automation in your business.</p>
+                            </div>
+
+                        </div>
+                        <div className="col-lg-7 col-md-12 col-12 order-lg-1 order-md-1 order-1 my-auto mx-auto  ">
+                            <div className="services-img">
+                                <img src={customize} className="rounded-4" alt=""/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section className="testimonials bg-deepNavyBlue mb-5">
+                <div className="container py-5">
+                    <div className="row gx-lg-5 gx-sm-2">
+                        <div className="col-lg-4 col-md-12 col-12 order-lg-2  my-auto  text-white">
+                            <div className="mb-4 mb-md-4 mb-lg-0">
+                                <img src="https://rei-property-invest.netlify.app/assets/images/icon/26.svg" alt=""/>
+
+                                    <h1 className="mb-4 mt-3 fs-1">What’s
+                                        Our Client Say
+                                        About Us</h1>
+                            </div>
+
+                        </div>
+                        <div className="col-lg-8 col-md-12 col-12  order-lg-1 my-auto my-auto mx-auto right-content ">
+                            <div className="marquee">
+                                <div className="marquee-content">
+                                    <div className="marquee-item">
+                                        <div className="card">
+                                            <div className="card-body fs-5">
+                                                <h5 className="card-title">Edward</h5>
+
+                                                <p className="card-text">Anuj completed the job on time and delivered what we asked for.
+                                                    He actually did additional work from the initial job description and made sure
+                                                    we were completely satisfied. </p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div className="marquee-item">
+                                        <div className="card">
+                                            <div className="card-body fs-5 my-auto">
+                                                <h5 className="card-title">Shad Nojumi</h5>
+                                                <p className="card-text">"Exceptionally excellent job loading my list in the CRM. I will
+                                                    hire him again for the automation. Particularly good responsive person and
+                                                    always available to respond to the customer." </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="marquee-item">
+                                        <div className="card">
+                                            <div className="card-body fs-5">
+                                                <h5 className="card-title">Jorge</h5>
+                                                <p className="card-text">Anuj is very communicative, he had great ideas that saved me
+                                                    money and made the automations less complex, and he worked very quickly and was
+                                                    quite proactive. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="marquee-item">
+                                        <div className="card ">
+                                            <div className="card-body fs-5">
+                                                <div className="my-auto">
+                                                    <h5 className="card-title">Steve</h5>
+
+                                                    <p className="card-text">Anuj did what he promised in Klipfolio which was
+                                                        technically
+                                                        quite hard. </p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="marquee-item">
+                                        <div className="card">
+                                            <div className="card-body fs-5">
+                                                <h5 className="card-title">Michael</h5>
+                                                <p className="card-text">Anuj has great ideas... and is great to work with. Has a great
+                                                    sense of business processes and how to implement these with Podio. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="marquee-item">
+                                        <div className="card">
+                                            <div className="card-body fs-5">
+                                                <h5 className="card-title">Jorge</h5>
+                                                <p className="card-text"> "Hire Anuj for any Podio-related development. He is
+                                                    knowledgeable, kind and does his work efficiently. I will 1000% hire him again!
+                                                    Thank you Anuj. Until next time." </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="marquee-item">
+                                        <div className="card">
+                                            <div className="card-body fs-5">
+                                                <h5 className="card-title">Tina</h5>
+                                                <p className="card-text">Great communication and completed the work with very little
+                                                    direction, fast turnaround. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="marquee-item">
+                                        <div className="card">
+                                            <div className="card-body fs-5">
+                                                <h5 className="card-title">Mike Theisen </h5>
+                                                <p className="card-text">Anuj did an excellent job and completed the job fast and
+                                                    efficiently while also walking me through his process working with podio. Will
+                                                    definitely recommend . </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="marquee-item">
+                                        <div className="card">
+                                            <div className="card-body fs-5">
+                                                <h5 className="card-title">Gal Shani </h5>
+                                                <p className="card-text">Nice job, thanks for adding the Real Estate app for Podio. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+            </section>
         </>
     );
 }
