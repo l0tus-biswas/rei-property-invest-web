@@ -1,13 +1,58 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Spectral:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Spectral', serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bg-deepNavyBlue {
+    background: #4a00e0;
+}
+
+.bg-navyBlue {
+    background: #e1f2fc;
+}
+
+.btn {
+    color: white !important;
+    border-radius: 30px !important;
+    padding: 0 40px !important;
+    transition: all .3s ease-in-out !important;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    line-height: 48px !important;
+    text-align: center !important;
+}
+
+.btn-orange {
+    background: #ff9301 !important;
+
+}
+
+.btn-outline-orange {
+    border: 2px solid rgb(255, 255, 255) !important;
+}
+
+.btn-outline-orange:hover {
+    border: 2px solid #ff9301 !important;
+    background: rgba(255, 255, 255, 0.045) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Acme', sans-serif;
+}
+
+.intro-sub-head {
+    color: #ff9301;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.separated img {
+    width: 100%;
 }

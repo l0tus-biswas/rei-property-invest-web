@@ -1,0 +1,10 @@
+
+footer a {
+    text-decoration: none;
+    color: #000 !important;
+}
+
+footer a:hover {
+    transition: transform 0.25s ease-out;
+    text-decoration: underlineyyy;
+}
