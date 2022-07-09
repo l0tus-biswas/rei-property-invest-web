@@ -1,0 +1,16 @@
+
+.navigation {
+    margin-top: 100px;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+}
+
+
+.navbar-nav .nav-item .nav-link {
+  
+    text-transform: capitalize;
+    position: relative;
+    transition: all .3s ease-in-out;
+}
