@@ -25,106 +25,115 @@ function VideoDemos() {
 
                     <div class="row justify-content-center mx-lg-5 mx-2 gx-lg-3 gy-lg-3 gx-2 gy-2">
                         <div class="col-lg-4 col-md-6  ">
-                            <div class="bg-white borderLeft">
-                                <div class="">
-                                    <div class="hs-responsive-embed-youtube">
-                                        <iframe src="https://www.youtube.com/embed/MUmxK-7MKLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                    </div>
-                                    <div class="text py-2 px-3">
-                                        <p className="fs-5 fw-bold">Podio CRM Suite for Real Estate</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6  ">
-                            <div class="bg-white borderLeft">
-                                <div class="">
-                                    <div class="hs-responsive-embed-youtube">
-                                        <iframe src="https://www.youtube.com/embed/MUmxK-7MKLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                    </div>
-                                    <div class="text py-2 px-3">
-                                        <p  className="fs-5 fw-bold">Seller Leads App</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6  ">
-                            <div class="bg-white borderLeft">
-                                <div class="">
-                                    <div class="hs-responsive-embed-youtube">
-                                        <iframe src="https://www.youtube.com/embed/MUmxK-7MKLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                    </div>
-                                    <div class="text py-2 px-3">
-                                        <p  className="fs-5 fw-bold">Appointments and Cash Buyer App</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6  ">
-                            <div class="bg-white borderLeft">
-                                <div class="">
-                                    <div class="hs-responsive-embed-youtube">
-                                        <iframe src="https://www.youtube.com/embed/MUmxK-7MKLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                    </div>
-                                    <div class="text py-2 px-3">
-                                        <p  className="fs-5 fw-bold">
-                                            Followup Sequences</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6  ">
-                            <div class="bg-white borderLeft">
-                                <div class="">
-                                    <div class="hs-responsive-embed-youtube">
-                                        <iframe src="https://www.youtube.com/embed/MUmxK-7MKLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                    </div>
-                                    <div class="text py-2 px-3">
-                                        <p  className="fs-5 fw-bold">
-                                            Email Marketing Campaign</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6  ">
-                            <div class="bg-white borderLeft">
-                                <div class="">
-                                    <div class="hs-responsive-embed-youtube">
-                                        <iframe src="https://www.youtube.com/embed/MUmxK-7MKLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                    </div>
-                                    <div class="text py-2 px-3">
-                                        <p  className="fs-5 fw-bold">
-                                            Sheet Leads & Text Blast</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6  ">
-                            <div class="bg-white borderLeft">
-                                <div class="">
-                                    <div class="hs-responsive-embed-youtube">
-                                        <iframe src="https://www.youtube.com/embed/MUmxK-7MKLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                    </div>
-                                    <div class="text py-2 px-3">
-                                        <p  className="fs-5 fw-bold">
+                            <a href="https://www.youtube.com/watch?v=MUmxK-7MKLI" target="blank">
 
-                                            KPI Tracker</p>
+                                <div class="bg-white borderLeft rounded-3 ">
+                                    <div class="">
+                                        <div class="hs-responsive-embed-youtube">
+                                            <iframe src="https://www.youtube.com/embed/MUmxK-7MKLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </div>
+                                        <div class="text py-2 px-3">
+                                            <p className="fs-5 fw-bold video-name">Podio CRM Suite for Real Estate</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
+
                         </div>
                         <div class="col-lg-4 col-md-6  ">
-                            <div class="bg-white borderLeft">
-                                <div class="">
-                                    <div class="hs-responsive-embed-youtube">
-                                        <iframe src="https://www.youtube.com/embed/MUmxK-7MKLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                    </div>
-                                    <div class="text py-2 px-3">
-                                        <p  className="fs-5 fw-bold">
-                                            Followup Sequences</p>
+                            <a href="https://www.youtube.com/watch?v=MUmxK-7MKLI" target="blank">
+
+                                <div class="bg-white borderLeft rounded-3">
+                                    <div class="">
+                                        <div class="hs-responsive-embed-youtube">
+                                            <iframe src="https://www.youtube.com/embed/MUmxK-7MKLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </div>
+                                        <div class="text py-2 px-3">
+                                            <p className="fs-5 fw-bold video-name">Seller Leads App</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6  ">
+                            <a href="https://www.youtube.com/watch?v=MUmxK-7MKLI" target="blank">
+
+                                <div class="bg-white borderLeft rounded-3">
+                                    <div class="">
+                                        <div class="hs-responsive-embed-youtube">
+                                            <iframe src="https://www.youtube.com/embed/MUmxK-7MKLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </div>
+                                        <div class="text py-2 px-3">
+                                            <p className="fs-5 fw-bold video-name">Appointments and Cash Buyer App</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6  ">
+                            <a href="https://www.youtube.com/watch?v=MUmxK-7MKLI" target="blank">
+
+                                <div class="bg-white borderLeft rounded-3">
+                                    <div class="">
+                                        <div class="hs-responsive-embed-youtube">
+                                            <iframe src="https://www.youtube.com/embed/MUmxK-7MKLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </div>
+                                        <div class="text py-2 px-3">
+                                            <p className="fs-5 fw-bold video-name">
+                                                Followup Sequences</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6  ">
+                            <a href="https://www.youtube.com/watch?v=MUmxK-7MKLI" target="blank">
+
+                                <div class="bg-white borderLeft rounded-3">
+                                    <div class="">
+                                        <div class="hs-responsive-embed-youtube">
+                                            <iframe src="https://www.youtube.com/embed/MUmxK-7MKLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </div>
+                                        <div class="text py-2 px-3">
+                                            <p className="fs-5 fw-bold video-name">
+                                                Email Marketing Campaign</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6  ">
+                            <a href="https://www.youtube.com/watch?v=MUmxK-7MKLI" target="blank">
+
+                                <div class="bg-white borderLeft rounded-3">
+                                    <div class="">
+                                        <div class="hs-responsive-embed-youtube">
+                                            <iframe src="https://www.youtube.com/embed/MUmxK-7MKLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </div>
+                                        <div class="text py-2 px-3">
+                                            <p className="fs-5 fw-bold video-name">
+                                                Sheet Leads & Text Blast</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6  ">
+                            <a href="https://www.youtube.com/watch?v=MUmxK-7MKLI" target="blank">
+
+                                <div class="bg-white borderLeft rounded-3">
+                                    <div class="">
+                                        <div class="hs-responsive-embed-youtube">
+                                            <iframe src="https://www.youtube.com/embed/MUmxK-7MKLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </div>
+                                        <div class="text py-2 px-3">
+                                            <p className="fs-5 fw-bold video-name">
+
+                                                KPI Tracker</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
 
                     </div>

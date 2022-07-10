@@ -4,14 +4,16 @@ import {
     Route,
     Link,
     Outlet,
-  } from "react-router-dom";
+    NavLink
+} from "react-router-dom";
+import { withRouter } from "react-router-dom";
 import logo from "../../assets/images/logo.jpg"
 function Navbar() {
     return (
         <>
             <section className="navigation">
                 <nav className="navbar fixed-top navbar-expand-lg bg-white  ">
-                    <div className="container-fluid">
+                    <div className="container">
                         <div className="logo">
                             <a href=""><img
                                 src={logo}
@@ -23,28 +25,28 @@ function Navbar() {
                             <span className="navbar-toggler-icon"></span>
                         </button>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul className="navbar-nav mx-auto mb-2 mb-lg-0 fs-5">
-                                <li className="nav-item">
-                                     <Link to="/home" className="nav-link " aria-current="page">Home</Link>
-                                 </li>
-                                <li className="nav-item">
-                                <Link to="/features" className="nav-link">Features</Link>
-                                
+                            <ul className="navbar-nav mx-auto mb-2 mb-lg-0 fs-5 fw-bold">
+                                <li className="nav-item" >
+                                    <NavLink to="/home" className="nav-link px-2 mx-2" aria-current="page">Home</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                <Link to="/services" className="nav-link">Services</Link>
-                                
+                                    <NavLink to="/features" className="nav-link px-2 mx-2">Features</NavLink>
+
                                 </li>
                                 <li className="nav-item">
-                                <Link to="/about" className="nav-link">About</Link>
-                               
+                                    <NavLink to="/services" className="nav-link px-2 mx-2">Services</NavLink>
+
                                 </li>
                                 <li className="nav-item">
-                                <Link to="/pricing" className="nav-link">Pricing</Link>     
-                               </li>
+                                    <NavLink to="/about" className="nav-link px-2 mx-2">About</NavLink>
+
+                                </li>
+                                <li className="nav-item">
+                                    <NavLink to="/pricing" className="nav-link px-2 mx-2">Pricing</NavLink>
+                                </li>
                             </ul>
                             <div>
-                                <button type="button" className="btn btn-orange me-2 ">Let's Talk Business</button>
+                                <button type="button" className="btn btn-orange ">Let's Talk Business</button>
                             </div>
 
                         </div>

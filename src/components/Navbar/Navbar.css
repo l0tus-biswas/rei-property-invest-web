@@ -14,3 +14,18 @@
     position: relative;
     transition: all .3s ease-in-out;
 }
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: white !important;
+    background-color:  #4a00e0 ;
+}
+
+@media screen and (max-width: 912px) {
+    .navbar ul li {
+        margin: 0 10px;
+      
+    }
+    .navbar .navbar-collapse{
+        padding: 20px 0 20px 0;
+    }
+  }
