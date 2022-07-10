@@ -160,6 +160,8 @@
 
 .front-integration .right-img img {
     width: 180px;
+    box-shadow: rgba(99, 99, 99, 0.623) 0px 2px 8px 0px;
+   
 }
 
 .front-integration .right-img .marquee {
@@ -174,6 +176,7 @@
 .front-integration .right-img .marquee-item {
     flex: 0 0 16vw;
     margin: 0 1vw;
+    
     /*   flex: 0 0 20vw; */
     /*   margin: 0 2vw; */
 }
@@ -196,6 +199,10 @@
 
 /* testimonials */
 
+.testimonials .apps-card{
+    box-shadow: rgba(99, 99, 99, 0.623) 0px 2px 8px 0px;
+    width: 100%;
+}
 
 .testimonials .right-content  .title,
 .text {
