@@ -44,7 +44,7 @@ function Integration() {
             <section className="video-demos-intro mb-5">
                 <div className="container py-5 ">
                     <div className="row gx-lg-5 gx-sm-2 justify-content-center ">
-                        <div className="col-lg-7 col-md-10 col-12 my-auto text-center">
+                        <div className="col-lg-7 col-md-10 col-12 my-auto text-center" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="200">
                             <div className="say">
                                 <h1 className="">Check our Integration Services</h1>
                                 <p className="fs-4 mt-3">We will help you to integrate Podio seamlessly with the third-party applications</p>
@@ -61,7 +61,7 @@ function Integration() {
             <section className="integration-cards bg-deepNavyBlue mb-5">
                 <div className="container py-5">
                     <div className="row gx-lg-5 gx-sm-2">
-                        <div className="col-lg-4 col-md-12 col-12 order-lg-2  my-auto  text-white">
+                        <div className="col-lg-4 col-md-12 col-12 order-lg-2  my-auto  text-white" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="200">
                             <div className="mb-4 mb-md-4 mb-lg-0">
                                 <h1 className="intro-sub-head mt-3">40+ INTEGRATION</h1>
                                 <h1 className="fs-1">Explore Our Integrations</h1>

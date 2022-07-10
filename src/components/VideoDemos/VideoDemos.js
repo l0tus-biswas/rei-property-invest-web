@@ -5,7 +5,7 @@ function VideoDemos() {
             <section className="video-demos-intro mb-5">
                 <div className="container py-5 ">
                     <div className="row gx-lg-5 gx-sm-2 justify-content-center ">
-                        <div className="col-lg-7 col-md-10 col-12 my-auto text-center">
+                        <div className="col-lg-7 col-md-10 col-12 my-auto text-center" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="200">
                             <div className="say">
                                 <h1 className="">Check our Demos</h1>
                                 <p className="fs-4 mt-3">Check out videos we recorded to show you how the features actually work</p>
