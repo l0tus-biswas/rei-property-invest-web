@@ -15,7 +15,7 @@ function Navbar() {
                 <nav className="navbar fixed-top navbar-expand-lg bg-white  ">
                     <div className="container">
                         <div className="logo">
-                            <a href=""><img
+                            <a href="home"><img
                                 src={logo}
                                 width={80} alt="Logo" /></a>
                         </div>

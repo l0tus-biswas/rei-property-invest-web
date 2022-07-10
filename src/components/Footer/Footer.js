@@ -14,7 +14,7 @@ function Footer() {
                     </a>
 
                     <ul className="nav col-md-4 justify-content-end ">
-                        <li className="nav-item"><a href="#" className="nav-link px-2">Privacy & Terms.</a></li>
+                        <li className="nav-item"><a href="terms-privacy" className="nav-link px-2"> Terms & Privacy. </a></li>
                         <li className="nav-item"><a href="https://podio.com/webforms/27230732/2095872" target="blank" className="nav-link px-2">Contact</a></li>
                     </ul>
                 </footer>

@@ -53,7 +53,7 @@ function Services(){
                         <h1 className="mb-4 fs-1">We are the Podio Integration Experts</h1>
                         <p className="fs-5">We will customize and integrate Podio with the best business applications/system through REST
                             /SOAP based web services.</p>
-                            <a href="our-integration-services" className="btn btn-orange me-2 mb-2 col-lg-6 col-md-12 col-12">Check all our
+                            <a href="our-integration-services" target="blank" className="btn btn-orange me-2 mb-2 col-lg-6 col-md-12 col-12">Check all our
                             integrations</a>
                     </div>
 

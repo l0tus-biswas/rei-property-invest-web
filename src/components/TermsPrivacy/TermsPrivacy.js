@@ -7,7 +7,7 @@ function TermsPrivacy() {
                 <div className="container py-5 ">
                     <div className="row mb-3">
                         <div className="col-12">
-                            <h1 className="fs-1">Terms of Use​</h1>
+                            <h1 className="fs-1">Terms & Conditions</h1>
 
                         </div>
                     </div>
