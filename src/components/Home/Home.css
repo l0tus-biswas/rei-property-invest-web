@@ -112,13 +112,6 @@
     position: relative;
 }
 
-.back-img {
-    position: relative;
-    background: url("https://rei-property-invest.netlify.app/assets/images/shape/bg.svg") no-repeat top center;
-    background-size: cover;
-    z-index: 1;
-
-}
 
 .ceo-say img {
     width: 200px;

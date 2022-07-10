@@ -53,6 +53,14 @@ h5 {
     text-transform: uppercase;
 }
 
+.back-img {
+    position: relative;
+    background: url("./assets/images/svg/back-image.svg") no-repeat top center;
+    background-size: cover;
+    z-index: 1;
+
+}
+
 .separated img {
     width: 100%;
 }
