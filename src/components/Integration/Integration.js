@@ -73,10 +73,10 @@ function Integration() {
                             <marquee direction="up" Scrollamount={7} height="500px" loop>
                                 <div class="row justify-content-center mx-lg-5 mx-2 gx-lg-3 gy-lg-3 gx-2 gy-2">
                                     <div class="col-lg-4 col-md-6 col-6 d-flex ">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
-                                            <div className="my-2">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                            <div className="my-2 text-center">
                                                 <img src={podioimg} alt="" />
-                                                <p className="title fw-bold my-2">Podio</p>
+                                                <p className="title my-2 fw-bold">Podio</p>
 
                                             </div>
 
@@ -84,308 +84,308 @@ function Integration() {
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-6 d-flex ">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
 
-                                            <div className="my-2">
+                                            <div className="my-2 text-center">
                                                 <img src={globiflow} alt="" />
-                                                <p className="title fw-bold my-2">Globiflow</p>
+                                                <p className="title my-2 fw-bold">Globiflow</p>
 
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
-                                            <div className="my-2">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                            <div className="my-2 text-center">
                                                 <img src={twilio} alt="" />
-                                                <p className="title fw-bold my-2">Twilio</p>
+                                                <p className="title my-2 fw-bold">Twilio</p>
 
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
-                                            <div className="my-2">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                            <div className="my-2 text-center">
                                                 <img src={callrail} alt="" />
-                                                <p className="title fw-bold my-2">Callrail</p>
+                                                <p className="title my-2 fw-bold">Callrail</p>
 
                                             </div>  </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
-                                            <div className="my-2">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                            <div className="my-2 text-center">
                                                 <img src={docusign} alt="" />
-                                                <p className="title fw-bold my-2">Docusign</p>
+                                                <p className="title my-2 fw-bold">Docusign</p>
 
                                             </div> </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
-                                            <div className="my-2">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                            <div className="my-2 text-center">
                                                 <img src={rightSignature} alt="" />
-                                                <p className="title fw-bold my-2">Right Signature</p>
+                                                <p className="title my-2 fw-bold">Right Signature</p>
 
                                             </div></div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
-                                            <div className="my-2">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                            <div className="my-2 text-center">
                                                 <img src={roor} alt="" />
-                                                <p className="title fw-bold my-2">ROOR</p>
+                                                <p className="title my-2 fw-bold">ROOR</p>
 
                                             </div></div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
-                                            <div className="my-2">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                            <div className="my-2 text-center">
                                                 <img src={smrtphone} alt="" />
-                                                <p className="title fw-bold my-2">Smrtphone.io</p>
+                                                <p className="title my-2 fw-bold">Smrtphone.io</p>
 
                                             </div>  
                                             </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
-                                            <div className="my-2">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                            <div className="my-2 text-center">
                                                 <img src={smarterContact} alt="" />
-                                                <p className="title fw-bold my-2">Smarter contact</p>
+                                                <p className="title my-2 fw-bold">Smarter contact</p>
 
                                             </div></div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
-                                            <div className="my-2">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                            <div className="my-2 text-center">
                                                 <img src={launchControl} alt="" />
-                                                <p className="title fw-bold my-2">Launch control</p>
+                                                <p className="title my-2 fw-bold">Launch control</p>
 
                                             </div>  
                                             </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
-                                            <div className="my-2">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                            <div className="my-2 text-center">
                                                 <img src={xencall} alt="" />
-                                                <p className="title fw-bold my-2">Xencall</p>
+                                                <p className="title my-2 fw-bold">Xencall</p>
 
                                             </div></div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
-                                            <div className="my-2">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                            <div className="my-2 text-center">
                                                 <img src={leadSherpa} alt="" />
-                                                <p className="title fw-bold my-2">Lead sherpa</p>
+                                                <p className="title my-2 fw-bold">Lead sherpa</p>
 
                                             </div>  
                                             </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
-                                            <div className="my-2">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                            <div className="my-2 text-center">
                                                 <img src={mailchimp} alt="" />
-                                                <p className="title fw-bold my-2">Mailchimp</p>
+                                                <p className="title my-2 fw-bold">Mailchimp</p>
 
                                             </div></div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
-                                            <div className="my-2">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                            <div className="my-2 text-center">
                                                 <img src={integromat} alt="" />
-                                                <p className="title fw-bold my-2">Integromate</p>
+                                                <p className="title my-2 fw-bold">Integromate</p>
 
                                             </div>  
                                             </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
-                                            <div className="my-2">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                            <div className="my-2 text-center">
                                                 <img src={zapier} alt="" />
-                                                <p className="title fw-bold my-2">Zapier</p>
+                                                <p className="title my-2 fw-bold">Zapier</p>
 
                                             </div></div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
-                                            <div className="my-2">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                            <div className="my-2 text-center">
                                                 <img src={facebookForms} alt="" />
-                                                <p className="title fw-bold my-2">Facebook Forms</p>
+                                                <p className="title my-2 fw-bold">Facebook Forms</p>
 
                                             </div>  
                                             </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
-                                            <div className="my-2">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                            <div className="my-2 text-center">
                                                 <img src={webMerge} alt="" />
-                                                <p className="title fw-bold my-2">Webmerge</p>
+                                                <p className="title my-2 fw-bold">Webmerge</p>
 
                                             </div></div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
-                                            <div className="my-2">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                            <div className="my-2 text-center">
                                                 <img src={ringCentral} alt="" />
-                                                <p className="title fw-bold my-2">Ring Central</p>
+                                                <p className="title my-2 fw-bold">Ring Central</p>
 
                                             </div>  
                                             </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
-                                            <div className="my-2">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                            <div className="my-2 text-center">
                                                 <img src={clickSend} alt="" />
-                                                <p className="title fw-bold my-2">Click Send</p>
+                                                <p className="title my-2 fw-bold">Click Send</p>
 
                                             </div></div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
-                                            <div className="my-2">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                            <div className="my-2 text-center">
                                                 <img src={clickUp} alt="" />
-                                                <p className="title fw-bold my-2">Clickup</p>
+                                                <p className="title my-2 fw-bold">Clickup</p>
 
                                             </div>  
                                             </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
-                                            <div className="my-2">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                            <div className="my-2 text-center">
                                                 <img src={trello} alt="" />
-                                                <p className="title fw-bold my-2">Trello</p>
+                                                <p className="title my-2 fw-bold">Trello</p>
 
                                             </div></div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
-                                            <div className="my-2">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                            <div className="my-2 text-center">
                                                 <img src={lob} alt="" />
-                                                <p className="title fw-bold my-2">Lob</p>
+                                                <p className="title my-2 fw-bold">Lob</p>
 
                                             </div>  
                                             </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
-                                            <div className="my-2">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                            <div className="my-2 text-center">
                                                 <img src={shareFile} alt="" />
-                                                <p className="title fw-bold my-2">Sharefile</p>
+                                                <p className="title my-2 fw-bold">Sharefile</p>
 
                                             </div></div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
-                                            <div className="my-2">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                            <div className="my-2 text-center">
                                                 <img src={plecto} alt="" />
-                                                <p className="title fw-bold my-2">Plecto</p>
+                                                <p className="title my-2 fw-bold">Plecto</p>
 
                                             </div>  
                                             </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
-                                            <div className="my-2">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                            <div className="my-2 text-center">
                                                 <img src={zoom} alt="" />
-                                                <p className="title fw-bold my-2">Zoom</p>
+                                                <p className="title my-2 fw-bold">Zoom</p>
 
                                             </div></div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
-                                            <div className="my-2">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                            <div className="my-2 text-center">
                                                 <img src={activeCampaign} alt="" />
-                                                <p className="title fw-bold my-2">Active Campaign</p>
+                                                <p className="title my-2 fw-bold">Active Campaign</p>
 
                                             </div>  
                                             </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
-                                            <div className="my-2">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                            <div className="my-2 text-center">
                                                 <img src={constantContact} alt="" />
-                                                <p className="title fw-bold my-2">Constant Contact</p>
+                                                <p className="title my-2 fw-bold">Constant Contact</p>
 
                                             </div></div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
-                                            <div className="my-2">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                            <div className="my-2 text-center">
                                                 <img src={wordpress_PNG67} alt="" />
-                                                <p className="title fw-bold my-2">Wordpress</p>
+                                                <p className="title my-2 fw-bold">Wordpress</p>
 
                                             </div>  
                                             </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
-                                            <div className="my-2">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                            <div className="my-2 text-center">
                                                 <img src={jotform} alt="" />
-                                                <p className="title fw-bold my-2">Jotform</p>
+                                                <p className="title my-2 fw-bold">Jotform</p>
 
                                             </div></div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
-                                            <div className="my-2">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                            <div className="my-2 text-center">
                                                 <img src={squarespace} alt="" />
-                                                <p className="title fw-bold my-2">Squarespace</p>
+                                                <p className="title my-2 fw-bold">Squarespace</p>
 
                                             </div>  
                                             </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
-                                            <div className="my-2">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                            <div className="my-2 text-center">
                                                 <img src={cooper} alt="" />
-                                                <p className="title fw-bold my-2">Copper</p>
+                                                <p className="title my-2 fw-bold">Copper</p>
 
                                             </div></div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
-                                            <div className="my-2">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                            <div className="my-2 text-center">
                                                 <img src={eversign} alt="" />
-                                                <p className="title fw-bold my-2">Eversign</p>
+                                                <p className="title my-2 fw-bold">Eversign</p>
 
                                             </div>  
                                             </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
-                                            <div className="my-2">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                            <div className="my-2 text-center">
                                                 <img src={awsCloud} alt="" />
-                                                <p className="title fw-bold my-2">Amazon EC2 Cloud</p>
+                                                <p className="title my-2 fw-bold">Amazon EC2 Cloud</p>
 
                                             </div></div>
                                     </div>
                                     
                                     <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
-                                            <div className="my-2">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                            <div className="my-2 text-center">
                                                 <img src={batchLead} alt="" />
-                                                <p className="title fw-bold my-2">Batch Leads</p>
+                                                <p className="title my-2 fw-bold">Batch Leads</p>
 
                                             </div></div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
-                                            <div className="my-2">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                            <div className="my-2 text-center">
                                                 <img src={batchDialer} alt="" />
-                                                <p className="title fw-bold my-2">Batch Dialer</p>
+                                                <p className="title my-2 fw-bold">Batch Dialer</p>
 
                                             </div>  
                                             </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
-                                            <div className="my-2">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                            <div className="my-2 text-center">
                                                 <img src={plivo} alt="" />
-                                                <p className="title fw-bold my-2">Plivo</p>
+                                                <p className="title my-2 fw-bold">Plivo</p>
 
                                             </div></div>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
-                                            <div className="my-2">
+                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                            <div className="my-2 text-center">
                                                 <img src={MessageBird} alt="" />
-                                                <p className="title fw-bold my-2">Message Bird</p>
+                                                <p className="title my-2 fw-bold">Message Bird</p>
 
                                             </div>  
                                             </div>
