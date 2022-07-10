@@ -1,7 +1,17 @@
 import "./Pricing.css"
+import { useEffect } from "react"
+
 function Pricing(){
+    function ScrollToTopOnMount() {
+        useEffect(() => {
+          window.scrollTo(0, 0);
+        }, []);
+      
+        return null;
+      }
     return(
         <>
+        <ScrollToTopOnMount />
          <section className="pricing-intro mb-5">
         <div className="container py-5 ">
             <div className="row gx-lg-5 gx-sm-2 d-flex justify-content-center ">

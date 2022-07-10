@@ -29,15 +29,19 @@ import enhance_expand from "../../assets/images/services/enhance_expand.png"
 import customize_icon from "../../assets/images/services/customize-icon.png"
 import customize from "../../assets/images/services/customize.png"
 import underline_black from "../../assets/images/svg/line-shape-1.svg"
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
-AOS.init();
-
+import { useEffect } from "react"
 
 function Home() {
+    function ScrollToTopOnMount() {
+        useEffect(() => {
+          window.scrollTo(0, 0);
+        }, []);
+      
+        return null;
+      }
     return (
         <>
+        <ScrollToTopOnMount />
             <section className="front-intro bg-deepNavyBlue text-white pt-5">
                 <div className="container">
                     <div className="row gx-lg-5 gx-sm-2 ">

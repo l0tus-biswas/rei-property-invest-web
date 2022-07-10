@@ -37,10 +37,19 @@ import batchLead from "../../assets/images/integration/batchLead.png"
 import batchDialer from "../../assets/images/integration/batchDialer.png"
 import plivo from "../../assets/images/integration/plivo.png"
 import MessageBird from "../../assets/images/integration/MessageBird.png"
+import { useEffect } from "react"
 
 function Integration() {
+    function ScrollToTopOnMount() {
+        useEffect(() => {
+          window.scrollTo(0, 0);
+        }, []);
+      
+        return null;
+      }
     return (
         <>
+        <ScrollToTopOnMount />
             <section className="video-demos-intro mb-5">
                 <div className="container py-5 ">
                     <div className="row gx-lg-5 gx-sm-2 justify-content-center ">

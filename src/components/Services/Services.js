@@ -12,10 +12,19 @@ import crmSuit from "../../assets/images/services-product/crm-suit.png"
 import kpiTracker from "../../assets/images/services-product/kpi-tracker.png"
 import smsBlast from "../../assets/images/services-product/sms-blast.png"
 import underline_black from "../../assets/images/svg/line-shape-1.svg"
+import { useEffect } from "react"
 
 function Services(){
+    function ScrollToTopOnMount() {
+        useEffect(() => {
+          window.scrollTo(0, 0);
+        }, []);
+      
+        return null;
+      }
     return(
         <>
+        <ScrollToTopOnMount />
      <section className="services-intro mb-5">
         <div className="container py-5 ">
             <div className="row gx-lg-5 gx-sm-2 justify-content-center ">

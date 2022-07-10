@@ -1,7 +1,18 @@
 import "./VideoDemos.css"
+import { useEffect } from "react"
+
 function VideoDemos() {
+    function ScrollToTopOnMount() {
+        useEffect(() => {
+          window.scrollTo(0, 0);
+        }, []);
+      
+        return null;
+      }
     return (
         <>
+        <ScrollToTopOnMount />
+         
             <section className="video-demos-intro mb-5">
                 <div className="container py-5 ">
                     <div className="row gx-lg-5 gx-sm-2 justify-content-center ">

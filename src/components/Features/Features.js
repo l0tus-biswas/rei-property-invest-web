@@ -24,10 +24,20 @@ import callLogs from "../../assets/images/podio-crm-apps/call-logs.png"
 import emailLogs from "../../assets/images/podio-crm-apps/email-logs.png"
 import noteLogs from "../../assets/images/podio-crm-apps/note-log.png"
 import feedApp from "../../assets/images/podio-crm-apps/feed-app.png"
+import { useEffect } from "react";
+
 
 function Features(){
+    function ScrollToTopOnMount() {
+        useEffect(() => {
+          window.scrollTo(0, 0);
+        }, []);
+      
+        return null;
+      }
     return(
         <>
+         <ScrollToTopOnMount />
      <section className="features-intro mb-5">
         <div className="container py-5 ">
             <div className="row gx-lg-5 gx-sm-2 d-flex justify-content-center ">

@@ -4,10 +4,19 @@ import anujDev from "../../assets/images/developers/anuj.jpg"
 import jobsSuccess from "../../assets/images/about/jobs-successfull.png"
 import activeClients from "../../assets/images/about/active-clients.png"
 import happyCustomers from "../../assets/images/about/happy-customers.png"
+import { useEffect } from "react";
 
 function About() {
+    function ScrollToTopOnMount() {
+        useEffect(() => {
+          window.scrollTo(0, 0);
+        }, []);
+      
+        return null;
+      }
     return (
         <>
+          <ScrollToTopOnMount />
          <section className="about-intro mb-5">
         <div className="container py-5 ">
             <div className="row gx-lg-5 gx-sm-2 justify-content-center ">
