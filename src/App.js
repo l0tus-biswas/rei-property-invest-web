@@ -13,6 +13,7 @@ import Navbar from './components/Navbar/Navbar';
 import About from './components/About/About';
 import Pricing from './components/Pricing/Pricing';
 import Services from './components/Services/Services';
+import VideoDemos from './components/VideoDemos/VideoDemos';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/features" element={<Features />} />
           <Route path="/pricing" element={<Pricing />} />
+          <Route path="/video-demos" element={<VideoDemos />} />
         </Routes>
         <Footer />
       </BrowserRouter>

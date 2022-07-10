@@ -458,7 +458,7 @@ function Home() {
                         </div>
                         <div className="col-lg-7 col-md-12 col-12  order-lg-1 my-auto my-auto mx-auto right-content ">
 
-                            <marquee direction="up" height="300px" loop>
+                            <marquee direction="up" Scrollamount={3} height="300px" loop>
                                 <div class="row justify-content-center mx-lg-5 mx-2 gx-lg-3 gy-lg-3 gx-2 gy-2">
                                     <div class="col-lg-12 col-md-6 d-flex ">
                                         <div class="bg-white p-4 rounded-3 apps-card fs-5">
