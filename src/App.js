@@ -15,6 +15,7 @@ import Pricing from './components/Pricing/Pricing';
 import Services from './components/Services/Services';
 import VideoDemos from './components/VideoDemos/VideoDemos';
 import Integration from './components/Integration/Integration';
+import TermsPrivacy from './components/TermsPrivacy/TermsPrivacy';
 
 function App() {
   return (
@@ -31,7 +32,7 @@ function App() {
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/video-demos" element={<VideoDemos />} />
           <Route path="/our-integration-services" element={<Integration />} />
-          
+          <Route path="/termsAndprivacy" element={<TermsPrivacy />} />
         </Routes>
         <Footer />
       </BrowserRouter>
