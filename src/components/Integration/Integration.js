@@ -58,7 +58,7 @@ function Integration() {
                 <div class="bubble-three"></div>
 
             </section>
-            <section className="integration-cards back-img mb-5">
+            <section className="integration-cards bg-deepNavyBlue mb-5">
                 <div className="container py-5">
                     <div className="row gx-lg-5 gx-sm-2">
                         <div className="col-lg-4 col-md-12 col-12 order-lg-2  my-auto  text-white">
