@@ -114,7 +114,7 @@ function Home() {
                         <div className="col-lg-5 col-md-5 d-flex  ">
                             <div className="bg-white p-4 rounded-3">
                                 <div className="icon"><img src={integration} alt="" className="mb-3" /></div>
-                                <h6 className="fw-bol fs-5"><span>Citrix Podio Integration</span>
+                                <h6 className="fw-bold fs-5"><span>Citrix Podio Integration</span>
                                 </h6>
                                 <p className="fs-5  mt-3"> Customize and integrate with the best business 3rd party
                                     applications. </p>
@@ -459,9 +459,9 @@ function Home() {
                         <div className="col-lg-7 col-md-12 col-12  order-lg-1 my-auto my-auto mx-auto right-content ">
 
                             <marquee direction="up" scrollamount={3} height="300px" loop>
-                                <div class="row justify-content-center mx-lg-5 mx-2 gx-lg-3 gy-lg-3 gx-2 gy-2">
-                                    <div class="col-lg-12 col-md-6 d-flex ">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
+                                <div className="row justify-content-center mx-lg-5 mx-2 gx-lg-3 gy-lg-3 gx-2 gy-2">
+                                    <div className="col-lg-12 col-md-6 d-flex ">
+                                        <div className="bg-white p-4 rounded-3 apps-card fs-5">
                                             <h5 className="title fw-bold my-2">Edward</h5>
 
                                             <p className="text">Anuj completed the job on time and delivered what we asked for.
@@ -469,23 +469,23 @@ function Home() {
                                                 we were completely satisfied. </p>
                                         </div>
                                     </div>
-                                    <div class="col-lg-12 col-md-6 d-flex  ">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
+                                    <div className="col-lg-12 col-md-6 d-flex  ">
+                                        <div className="bg-white p-4 rounded-3 apps-card fs-5">
 
                                             <h5 className="title fw-bold my-2">Shad Nojumi</h5>
                                             <p className="text">"Exceptionally excellent job loading my list in the CRM. I will
                                                 hire him again for the automation. Particularly good responsive person and
                                                 always available to respond to the customer." </p>      </div>
                                     </div>
-                                    <div class="col-lg-12 col-md-6 d-flex ">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
+                                    <div className="col-lg-12 col-md-6 d-flex ">
+                                        <div className="bg-white p-4 rounded-3 apps-card fs-5">
                                             <h5 className="title fw-bold my-2">Jorge</h5>
                                             <p className="text">Anuj is very communicative, he had great ideas that saved me
                                                 money and made the automations less complex, and he worked very quickly and was
                                                 quite proactive. </p> </div>
                                     </div>
-                                    <div class="col-lg-12 col-md-6 d-flex ">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
+                                    <div className="col-lg-12 col-md-6 d-flex ">
+                                        <div className="bg-white p-4 rounded-3 apps-card fs-5">
                                             <h5 className="title fw-bold my-2">Steve</h5>
 
                                             <p className="text">Anuj did what he promised in Klipfolio which was
@@ -493,38 +493,38 @@ function Home() {
                                                 quite hard. </p>
                                         </div>
                                     </div>
-                                    <div class="col-lg-12 col-md-6 d-flex ">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
+                                    <div className="col-lg-12 col-md-6 d-flex ">
+                                        <div className="bg-white p-4 rounded-3 apps-card fs-5">
                                             <h5 className="title fw-bold my-2">Michael</h5>
                                             <p className="text">Anuj has great ideas... and is great to work with. Has a great
                                                 sense of business processes and how to implement these with Podio. </p>
                                         </div>
                                     </div>
-                                    <div class="col-lg-12 col-md-6 d-flex ">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
+                                    <div className="col-lg-12 col-md-6 d-flex ">
+                                        <div className="bg-white p-4 rounded-3 apps-card fs-5">
                                             <h5 className="title fw-bold my-2">Jorge</h5>
                                             <p className="text"> "Hire Anuj for any Podio-related development. He is
                                                 knowledgeable, kind and does his work efficiently. I will 1000% hire him again!
                                                 Thank you Anuj. Until next time." </p>
                                         </div>
                                     </div>
-                                    <div class="col-lg-12 col-md-6 d-flex ">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
+                                    <div className="col-lg-12 col-md-6 d-flex ">
+                                        <div className="bg-white p-4 rounded-3 apps-card fs-5">
                                             <h5 className="title fw-bold my-2">Tina</h5>
                                             <p className="text">Great communication and completed the work with very little
                                                 direction, fast turnaround. </p>
                                         </div>
                                     </div>
-                                    <div class="col-lg-12 col-md-6 d-flex ">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
+                                    <div className="col-lg-12 col-md-6 d-flex ">
+                                        <div className="bg-white p-4 rounded-3 apps-card fs-5">
                                             <h5 className="title fw-bold my-2">Mike Theisen </h5>
                                             <p className="text">Anuj did an excellent job and completed the job fast and
                                                 efficiently while also walking me through his process working with podio. Will
                                                 definitely recommend . </p>
                                         </div>
                                     </div>
-                                    <div class="col-lg-12 col-md-6 d-flex ">
-                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
+                                    <div className="col-lg-12 col-md-6 d-flex ">
+                                        <div className="bg-white p-4 rounded-3 apps-card fs-5">
                                             <h5 className="title fw-bold my-2">Gal Shani </h5>
                                             <p className="text">Nice job, thanks for adding the Real Estate app for Podio. </p>
                                         </div>

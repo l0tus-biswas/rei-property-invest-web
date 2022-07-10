@@ -16,40 +16,40 @@ import underline_black from "../../assets/images/svg/line-shape-1.svg"
 function Services(){
     return(
         <>
-     <section class="services-intro mb-5">
-        <div class="container py-5 ">
-            <div class="row gx-lg-5 gx-sm-2 justify-content-center ">
-                <div class="col-lg-7 col-md-10 col-12 my-auto text-center">
-                    <div class="say">
-                        <h1 class="">Our Services</h1>
-                        <p class="fs-4 mt-3">We are a creative company that focuses on establishing long-term relationships with customers</p>
+     <section className="services-intro mb-5">
+        <div className="container py-5 ">
+            <div className="row gx-lg-5 gx-sm-2 justify-content-center ">
+                <div className="col-lg-7 col-md-10 col-12 my-auto text-center">
+                    <div className="say">
+                        <h1 className="">Our Services</h1>
+                        <p className="fs-4 mt-3">We are a creative company that focuses on establishing long-term relationships with customers</p>
 
                     </div>
                 </div>
             </div>
         </div>
-        <div class="bubble-one"></div>
-        <div class="bubble-two"></div>
-        <div class="bubble-three"></div>
+        <div className="bubble-one"></div>
+        <div className="bubble-two"></div>
+        <div className="bubble-three"></div>
 
     </section>
 
 
-    <section class="services-integration back-img  mb-5">
-        <div class="container p-5">
-            <div class="row gx-lg-5 gx-sm-2">
-                <div class="col-lg-6 col-md-12 col-12 my-auto">
-                    <div class="mb-4 mb-md-4 mb-lg-0">
-                        <h1 class="intro-sub-head">You think we integrate</h1>
-                        <h1 class="mb-4 fs-1">We are the Podio Integration Experts</h1>
-                        <p class="fs-5">We will customize and integrate Podio with the best business applications/system through REST
+    <section className="services-integration back-img  mb-5">
+        <div className="container p-5">
+            <div className="row gx-lg-5 gx-sm-2">
+                <div className="col-lg-6 col-md-12 col-12 my-auto">
+                    <div className="mb-4 mb-md-4 mb-lg-0">
+                        <h1 className="intro-sub-head">You think we integrate</h1>
+                        <h1 className="mb-4 fs-1">We are the Podio Integration Experts</h1>
+                        <p className="fs-5">We will customize and integrate Podio with the best business applications/system through REST
                             /SOAP based web services.</p>
-                            <a href="our-integration-services" class="btn btn-orange me-2 mb-2 col-lg-6 col-md-12 col-12">Check all our
+                            <a href="our-integration-services" className="btn btn-orange me-2 mb-2 col-lg-6 col-md-12 col-12">Check all our
                             integrations</a>
                     </div>
 
                 </div>
-                <div class="col-lg-6 col-md-12 col-12 my-auto mx-auto right-img ">
+                <div className="col-lg-6 col-md-12 col-12 my-auto mx-auto right-img ">
                 <div className="marquee">
                                 <div className="marquee-content">
                                     <div className="marquee-item">
@@ -100,13 +100,13 @@ function Services(){
         </div>
     </section>
 
-    <section class="contact-separation  mb-5">
-        <div class="container p-5">
-            <div class="row gx-lg-5 gx-sm-2 d-flex justify-content-center">
-                <div class="col-lg-7 col-md-12 col-12 my-auto text-center">
-                    <div class="mb-4 mb-md-4 mb-lg-0">
-                        <h1 class="mb-4 fs-1">Convinced to work on a new project ?</h1>
-                        <a href="pricing" class="btn btn-outline-orange-tdark col-lg-6 col-md-12 col-12 mb-3">Choose
+    <section className="contact-separation  mb-5">
+        <div className="container p-5">
+            <div className="row gx-lg-5 gx-sm-2 d-flex justify-content-center">
+                <div className="col-lg-7 col-md-12 col-12 my-auto text-center">
+                    <div className="mb-4 mb-md-4 mb-lg-0">
+                        <h1 className="mb-4 fs-1">Convinced to work on a new project ?</h1>
+                        <a href="pricing" className="btn btn-outline-orange-tdark col-lg-6 col-md-12 col-12 mb-3">Choose
                             Plan</a>
                         
                     </div>
@@ -117,73 +117,73 @@ function Services(){
         </div>
     </section>
 
-    <section class="services-product back-img mb-5">
-        <div class="container p-5  ">
-            <div class="row text-center mb-3">
-                <div class="col-12">
-                    <h1 class="intro-sub-head">SERVICES</h1>
+    <section className="services-product back-img mb-5">
+        <div className="container p-5  ">
+            <div className="row text-center mb-3">
+                <div className="col-12">
+                    <h1 className="intro-sub-head">SERVICES</h1>
                 </div>
-                <div class="col-12">
-                    <h1 class="fs-1">We help you to drive growth at your business</h1>
+                <div className="col-12">
+                    <h1 className="fs-1">We help you to drive growth at your business</h1>
 
                 </div>
             </div>
-            <div class="row gx-lg-5 gx-sm-2">
-                <div class="col-lg-5 col-md-12 col-12 order-lg-1 order-md-2 order-2 my-auto">
-                    <div class="mt-4 mt-md-4 mt-lg-0">
-                        <h4 class="mt-3">PODIO SUITE FOR REAL ESTATE</h4>
+            <div className="row gx-lg-5 gx-sm-2">
+                <div className="col-lg-5 col-md-12 col-12 order-lg-1 order-md-2 order-2 my-auto">
+                    <div className="mt-4 mt-md-4 mt-lg-0">
+                        <h4 className="mt-3">PODIO SUITE FOR REAL ESTATE</h4>
 
-                        <h4 class="fs-1 mt-2">Customizable 25+ Podio in built feature</h4>
-                        <p class="fs-5 mt-3">The only Podio dashbaard you need to get started with your business with power
-                            pack features only at <span class="fw-bold">$1500</span>. This is a one time payment with 3 months free of service on our
+                        <h4 className="fs-1 mt-2">Customizable 25+ Podio in built feature</h4>
+                        <p className="fs-5 mt-3">The only Podio dashbaard you need to get started with your business with power
+                            pack features only at <span className="fw-bold">$1500</span>. This is a one time payment with 3 months free of service on our
                             product.</p>
                     </div>
 
                 </div>
-                <div class="col-lg-7 col-md-12 col-12 order-lg-2 order-md-1 order-1 my-auto mx-auto  ">
-                    <div class="services-img ">
+                <div className="col-lg-7 col-md-12 col-12 order-lg-2 order-md-1 order-1 my-auto mx-auto  ">
+                    <div className="services-img ">
                         <img src={crmSuit} className="rounded-4" alt="" />
                     </div>
                 </div>
             </div>
-            <div class="separated my-5">
+            <div className="separated my-5">
                 <img src={underline_black} alt=""/>
             </div>
-            <div class="row gx-lg-5 gx-sm-2">
-                <div class="col-lg-5 col-md-12 col-12 order-lg-2 order-md-2 order-2 my-auto">
-                    <div class="mt-4 mt-md-4 mt-lg-0">
-                        <h4 class="mt-3">KPI TRACKER</h4>
+            <div className="row gx-lg-5 gx-sm-2">
+                <div className="col-lg-5 col-md-12 col-12 order-lg-2 order-md-2 order-2 my-auto">
+                    <div className="mt-4 mt-md-4 mt-lg-0">
+                        <h4 className="mt-3">KPI TRACKER</h4>
 
-                        <h4 class="fs-1 mt-2">Analytical performance of your business sales</h4>
-                        <p class="fs-5 mt-3">KPI Tracker available only at <span class="fw-bold">$49 /- month </span>to track all the activities of the
+                        <h4 className="fs-1 mt-2">Analytical performance of your business sales</h4>
+                        <p className="fs-5 mt-3">KPI Tracker available only at <span className="fw-bold">$49 /- month </span>to track all the activities of the
                             people working in your organization. To know more <a href="https://www.youtube.com/watch?v=57CkQMqwuAw&feature=youtu.be">click here.</a> </p>
                     </div>
 
                 </div>
-                <div class="col-lg-7 col-md-12 col-12 order-lg-1 order-md-1 order-1 my-auto mx-auto  ">
-                    <div class="services-img">
+                <div className="col-lg-7 col-md-12 col-12 order-lg-1 order-md-1 order-1 my-auto mx-auto  ">
+                    <div className="services-img">
                         <img src={kpiTracker} alt="" className="rounded-4"/>
                     </div>
                 </div>
             </div>
-            <div class="separated my-5">
+            <div className="separated my-5">
                 <img src={underline_black} alt=""/>
             </div>
-            <div class="row gx-lg-5 gx-sm-2">
-                <div class="col-lg-5 col-md-12 col-12 order-lg-1 order-md-2 order-2 my-auto">
-                    <div class="mt-4 mt-md-4 mt-lg-0">
-                        <h4 class="mt-3">
+            <div className="row gx-lg-5 gx-sm-2">
+                <div className="col-lg-5 col-md-12 col-12 order-lg-1 order-md-2 order-2 my-auto">
+                    <div className="mt-4 mt-md-4 mt-lg-0">
+                        <h4 className="mt-3">
                             BLUK SMS PLATFORM</h4>
 
-                        <h4 class="fs-1 mt-2">Powerful and Quick delivery of SMS</h4>
-                        <p class="fs-5 mt-3">You don’t need to purchase any other system when you can directly do the Bulk
-                            SMS Campaigns from Podio itself only at <span class="fw-bold">$49 /- month</span>. You just need a Twilio account and an
+                        <h4 className="fs-1 mt-2">Powerful and Quick delivery of SMS</h4>
+                        <p className="fs-5 mt-3">You don’t need to purchase any other system when you can directly do the Bulk
+                            SMS Campaigns from Podio itself only at <span className="fw-bold">$49 /- month</span>. You just need a Twilio account and an
                             Amazon EC-2 server.</p>
                     </div>
 
                 </div>
-                <div class="col-lg-7 col-md-12 col-12 order-lg-2 order-md-1 order-1 my-auto mx-auto  ">
-                    <div class="services-img">
+                <div className="col-lg-7 col-md-12 col-12 order-lg-2 order-md-1 order-1 my-auto mx-auto  ">
+                    <div className="services-img">
                         <img src={smsBlast} className="rounded-4" alt=""/>
                     </div>
                 </div>

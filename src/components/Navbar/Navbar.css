@@ -13,7 +13,7 @@
 
 
 .navbar-nav .nav-item .nav-link {
-  
+  color: black;
     text-transform: capitalize;
     position: relative;
     transition: all .3s ease-in-out;

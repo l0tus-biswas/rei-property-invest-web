@@ -41,21 +41,21 @@ import MessageBird from "../../assets/images/integration/MessageBird.png"
 function Integration() {
     return (
         <>
-            <section class="video-demos-intro mb-5">
-                <div class="container py-5 ">
-                    <div class="row gx-lg-5 gx-sm-2 justify-content-center ">
-                        <div class="col-lg-7 col-md-10 col-12 my-auto text-center">
-                            <div class="say">
-                                <h1 class="">Check our Integration Services</h1>
-                                <p class="fs-4 mt-3">We will help you to integrate Podio seamlessly with the third-party applications</p>
+            <section className="video-demos-intro mb-5">
+                <div className="container py-5 ">
+                    <div className="row gx-lg-5 gx-sm-2 justify-content-center ">
+                        <div className="col-lg-7 col-md-10 col-12 my-auto text-center">
+                            <div className="say">
+                                <h1 className="">Check our Integration Services</h1>
+                                <p className="fs-4 mt-3">We will help you to integrate Podio seamlessly with the third-party applications</p>
 
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="bubble-one"></div>
-                <div class="bubble-two"></div>
-                <div class="bubble-three"></div>
+                <div className="bubble-one"></div>
+                <div className="bubble-two"></div>
+                <div className="bubble-three"></div>
 
             </section>
             <section className="integration-cards bg-deepNavyBlue mb-5">
@@ -71,9 +71,9 @@ function Integration() {
                         <div className="col-lg-8 col-md-12 col-12  order-lg-1 my-auto my-auto mx-auto right-content ">
 
                             <marquee direction="up" scrollamount={7} height="500px" loop>
-                                <div class="row justify-content-center mx-lg-5 mx-2 gx-lg-3 gy-lg-3 gx-2 gy-2">
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex ">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                <div className="row justify-content-center mx-lg-5 mx-2 gx-lg-3 gy-lg-3 gx-2 gy-2">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex ">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
                                             <div className="my-2 text-center">
                                                 <img src={podioimg} alt="" />
                                                 <p className="title my-2 fw-bold">Podio</p>
@@ -83,8 +83,8 @@ function Integration() {
 
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex ">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex ">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
 
                                             <div className="my-2 text-center">
                                                 <img src={globiflow} alt="" />
@@ -93,8 +93,8 @@ function Integration() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
                                             <div className="my-2 text-center">
                                                 <img src={twilio} alt="" />
                                                 <p className="title my-2 fw-bold">Twilio</p>
@@ -102,40 +102,40 @@ function Integration() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
                                             <div className="my-2 text-center">
                                                 <img src={callrail} alt="" />
                                                 <p className="title my-2 fw-bold">Callrail</p>
 
                                             </div>  </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
                                             <div className="my-2 text-center">
                                                 <img src={docusign} alt="" />
                                                 <p className="title my-2 fw-bold">Docusign</p>
 
                                             </div> </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
                                             <div className="my-2 text-center">
                                                 <img src={rightSignature} alt="" />
                                                 <p className="title my-2 fw-bold">Right Signature</p>
 
                                             </div></div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
                                             <div className="my-2 text-center">
                                                 <img src={roor} alt="" />
                                                 <p className="title my-2 fw-bold">ROOR</p>
 
                                             </div></div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
                                             <div className="my-2 text-center">
                                                 <img src={smrtphone} alt="" />
                                                 <p className="title my-2 fw-bold">Smrtphone.io</p>
@@ -143,16 +143,16 @@ function Integration() {
                                             </div>  
                                             </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
                                             <div className="my-2 text-center">
                                                 <img src={smarterContact} alt="" />
                                                 <p className="title my-2 fw-bold">Smarter contact</p>
 
                                             </div></div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
                                             <div className="my-2 text-center">
                                                 <img src={launchControl} alt="" />
                                                 <p className="title my-2 fw-bold">Launch control</p>
@@ -160,16 +160,16 @@ function Integration() {
                                             </div>  
                                             </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
                                             <div className="my-2 text-center">
                                                 <img src={xencall} alt="" />
                                                 <p className="title my-2 fw-bold">Xencall</p>
 
                                             </div></div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
                                             <div className="my-2 text-center">
                                                 <img src={leadSherpa} alt="" />
                                                 <p className="title my-2 fw-bold">Lead sherpa</p>
@@ -177,16 +177,16 @@ function Integration() {
                                             </div>  
                                             </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
                                             <div className="my-2 text-center">
                                                 <img src={mailchimp} alt="" />
                                                 <p className="title my-2 fw-bold">Mailchimp</p>
 
                                             </div></div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
                                             <div className="my-2 text-center">
                                                 <img src={integromat} alt="" />
                                                 <p className="title my-2 fw-bold">Integromate</p>
@@ -194,16 +194,16 @@ function Integration() {
                                             </div>  
                                             </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
                                             <div className="my-2 text-center">
                                                 <img src={zapier} alt="" />
                                                 <p className="title my-2 fw-bold">Zapier</p>
 
                                             </div></div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
                                             <div className="my-2 text-center">
                                                 <img src={facebookForms} alt="" />
                                                 <p className="title my-2 fw-bold">Facebook Forms</p>
@@ -211,16 +211,16 @@ function Integration() {
                                             </div>  
                                             </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
                                             <div className="my-2 text-center">
                                                 <img src={webMerge} alt="" />
                                                 <p className="title my-2 fw-bold">Webmerge</p>
 
                                             </div></div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
                                             <div className="my-2 text-center">
                                                 <img src={ringCentral} alt="" />
                                                 <p className="title my-2 fw-bold">Ring Central</p>
@@ -228,16 +228,16 @@ function Integration() {
                                             </div>  
                                             </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
                                             <div className="my-2 text-center">
                                                 <img src={clickSend} alt="" />
                                                 <p className="title my-2 fw-bold">Click Send</p>
 
                                             </div></div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
                                             <div className="my-2 text-center">
                                                 <img src={clickUp} alt="" />
                                                 <p className="title my-2 fw-bold">Clickup</p>
@@ -245,16 +245,16 @@ function Integration() {
                                             </div>  
                                             </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
                                             <div className="my-2 text-center">
                                                 <img src={trello} alt="" />
                                                 <p className="title my-2 fw-bold">Trello</p>
 
                                             </div></div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
                                             <div className="my-2 text-center">
                                                 <img src={lob} alt="" />
                                                 <p className="title my-2 fw-bold">Lob</p>
@@ -262,16 +262,16 @@ function Integration() {
                                             </div>  
                                             </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
                                             <div className="my-2 text-center">
                                                 <img src={shareFile} alt="" />
                                                 <p className="title my-2 fw-bold">Sharefile</p>
 
                                             </div></div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
                                             <div className="my-2 text-center">
                                                 <img src={plecto} alt="" />
                                                 <p className="title my-2 fw-bold">Plecto</p>
@@ -279,16 +279,16 @@ function Integration() {
                                             </div>  
                                             </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
                                             <div className="my-2 text-center">
                                                 <img src={zoom} alt="" />
                                                 <p className="title my-2 fw-bold">Zoom</p>
 
                                             </div></div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
                                             <div className="my-2 text-center">
                                                 <img src={activeCampaign} alt="" />
                                                 <p className="title my-2 fw-bold">Active Campaign</p>
@@ -296,16 +296,16 @@ function Integration() {
                                             </div>  
                                             </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
                                             <div className="my-2 text-center">
                                                 <img src={constantContact} alt="" />
                                                 <p className="title my-2 fw-bold">Constant Contact</p>
 
                                             </div></div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
                                             <div className="my-2 text-center">
                                                 <img src={wordpress_PNG67} alt="" />
                                                 <p className="title my-2 fw-bold">Wordpress</p>
@@ -313,16 +313,16 @@ function Integration() {
                                             </div>  
                                             </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
                                             <div className="my-2 text-center">
                                                 <img src={jotform} alt="" />
                                                 <p className="title my-2 fw-bold">Jotform</p>
 
                                             </div></div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
                                             <div className="my-2 text-center">
                                                 <img src={squarespace} alt="" />
                                                 <p className="title my-2 fw-bold">Squarespace</p>
@@ -330,16 +330,16 @@ function Integration() {
                                             </div>  
                                             </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
                                             <div className="my-2 text-center">
                                                 <img src={cooper} alt="" />
                                                 <p className="title my-2 fw-bold">Copper</p>
 
                                             </div></div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
                                             <div className="my-2 text-center">
                                                 <img src={eversign} alt="" />
                                                 <p className="title my-2 fw-bold">Eversign</p>
@@ -347,8 +347,8 @@ function Integration() {
                                             </div>  
                                             </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
                                             <div className="my-2 text-center">
                                                 <img src={awsCloud} alt="" />
                                                 <p className="title my-2 fw-bold">Amazon EC2 Cloud</p>
@@ -356,16 +356,16 @@ function Integration() {
                                             </div></div>
                                     </div>
                                     
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
                                             <div className="my-2 text-center">
                                                 <img src={batchLead} alt="" />
                                                 <p className="title my-2 fw-bold">Batch Leads</p>
 
                                             </div></div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
                                             <div className="my-2 text-center">
                                                 <img src={batchDialer} alt="" />
                                                 <p className="title my-2 fw-bold">Batch Dialer</p>
@@ -373,16 +373,16 @@ function Integration() {
                                             </div>  
                                             </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
                                             <div className="my-2 text-center">
                                                 <img src={plivo} alt="" />
                                                 <p className="title my-2 fw-bold">Plivo</p>
 
                                             </div></div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-6 d-flex">
-                                        <div class="bg-white p-3 rounded-3 apps-card">
+                                    <div className="col-lg-4 col-md-6 col-6 d-flex">
+                                        <div className="bg-white p-3 rounded-3 apps-card">
                                             <div className="my-2 text-center">
                                                 <img src={MessageBird} alt="" />
                                                 <p className="title my-2 fw-bold">Message Bird</p>

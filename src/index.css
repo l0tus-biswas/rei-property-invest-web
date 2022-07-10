@@ -57,6 +57,17 @@ h5 {
     font-family: 'Acme', sans-serif;
 }
 
+.say h1 {
+    font-size: 63px;
+}
+
+@media screen and (max-width: 991px) {
+     .say  h1 {
+        font-size: 48px;
+        line-height: 1.25em;
+    }
+}
+
 .intro-sub-head {
     color: #ff9301;
     font-weight: 600;
