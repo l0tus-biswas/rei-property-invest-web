@@ -11,6 +11,7 @@ import {
 import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
 import About from './components/About/About';
+import Pricing from './components/Pricing/Pricing';
 
 function App() {
   return (
@@ -19,9 +20,10 @@ function App() {
       <Navbar/>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="home" element={<Home />} />
-          <Route path="about" element={<About />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/about" element={<About />} />
           <Route path="/features" element={<Features />} />
+          <Route path="/pricing" element={<Pricing />} />
         </Routes>
         <Footer />
       </BrowserRouter>

@@ -39,6 +39,16 @@
     background: rgba(255, 255, 255, 0.045) !important;
 }
 
+
+.btn-outline-orange-tdark{
+    border: 2px solid #ff9301 !important;
+    color: black !important;
+}
+.btn-outline-orange-tdark:hover {
+    border: 2px solid #ff9301 !important;
+    background: #ff91012f!important;
+}
+
 h1,
 h2,
 h3,
