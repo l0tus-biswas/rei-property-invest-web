@@ -202,43 +202,23 @@
 }
 
 /* testimonials */
-.testimonials .right-content .marquee-item .card {
-    width: 20rem;
-    height: 290px;
-}
 
-.testimonials .right-content .marquee-item .card .card-body .card-title,
-.card-text {
+
+.testimonials .right-content  .title,
+.text {
     position: relative;
     z-index: 1;
 }
 
-.testimonials .right-content .marquee-item .card .card-title:before {
+.testimonials .right-content .title:before {
     color: #ff9301;
     content: "❝";
     font-size: 140px;
     font-weight: 700;
     position: absolute;
-    opacity: 0.3;
+    opacity: 0.5;
     top: -0.2em;
     bottom: 0;
     right: 0;
     z-index: -1;
-}
-
-
-.testimonials .right-content .marquee {
-    overflow: hidden;
-}
-
-.testimonials .right-content .marquee-content {
-    display: flex;
-    animation: scrolling 40s linear infinite;
-}
-
-.testimonials .right-content .marquee-item {
-    flex: 0 0 16vw;
-    margin: 0 1vw;
-    /*   flex: 0 0 20vw; */
-    /*   margin: 0 2vw; */
 }

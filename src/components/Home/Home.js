@@ -13,7 +13,7 @@ import realEstateCRM from "../../assets/images/industry-specifc-custom/Real-esta
 import retailCRM from "../../assets/images/industry-specifc-custom/Retail-CRM.png"
 import manufactureringCRM from "../../assets/images/industry-specifc-custom/Manufacturing-CRM.png"
 import field_serviceCRM from "../../assets/images/industry-specifc-custom/Field-service-managment-crm.png"
-import travel_hos_CRM  from "../../assets/images/industry-specifc-custom/Travel_&_hospitality-crm.png"
+import travel_hos_CRM from "../../assets/images/industry-specifc-custom/Travel_&_hospitality-crm.png"
 import solarCRM from "../../assets/images/industry-specifc-custom/Solar-industry-CRM.png"
 import image1 from "../../assets/images/integration/1621276243.png"
 import docusign from "../../assets/images/integration/docusign.png"
@@ -105,7 +105,7 @@ function Home() {
                         <div className="col-lg-5 col-md-5 d-flex  ">
                             <div className="bg-white p-4 rounded-3">
                                 <div className="icon"><img src={cusstomization} alt="" className="mb-3" /></div>
-                                <h6 className="fw-bold   fs-5"><span>Citrix Podio Customization</span>
+                                <h6 className="fw-bold fs-5"><span>Citrix Podio Customization</span>
                                 </h6>
                                 <p className="fs-5 mt-3">Modeling your business processes to manage sales channels effectively.</p>
                             </div>
@@ -119,7 +119,7 @@ function Home() {
                                     applications. </p>
                             </div>
                         </div>
-                        <div className="col-lg-5 col-md-5 d-flex   ">
+                        <div className="col-lg-5 col-md-5 d-flex ">
                             <div className="bg-white p-4 rounded-3">
                                 <div className="icon"><img src={automation} alt="" className="mb-3" /></div>
                                 <h6 className="fw-bold fs-5"><span>Citrix Podio Automation</span>
@@ -127,7 +127,7 @@ function Home() {
                                 <p className="fs-5  mt-3">Make your business automated end to end through our services.</p>
                             </div>
                         </div>
-                        <div className="col-lg-5 col-md-5 d-flex   ">
+                        <div className="col-lg-5 col-md-5 d-flex ">
                             <div className="bg-white p-4 rounded-3">
                                 <div className="icon"><img src={analysis} alt="" className="mb-3" /></div>
                                 <h6 className="fw-bold fs-5"><span>Citrix Podio Analysis</span></h6>
@@ -350,33 +350,33 @@ function Home() {
                                     </div>
 
                                     <div className="marquee-item">
-                                        <img src={globiflow} alt=""/>
+                                        <img src={globiflow} alt="" />
                                     </div>
 
                                     <div className="marquee-item">
-                                        <img src={image2} alt=""/>
+                                        <img src={image2} alt="" />
                                     </div>
 
                                     <div className="marquee-item">
-                                        <img src={twilio} alt=""/>
+                                        <img src={twilio} alt="" />
                                     </div>
 
                                     <div className="marquee-item">
-                                        <img src={image3} alt=""/>
-                                    </div>
-
-
-                                    <div className="marquee-item">
-                                        <img src={integromat} alt=""/>
+                                        <img src={image3} alt="" />
                                     </div>
 
 
                                     <div className="marquee-item">
-                                        <img src={mcLogo} alt=""/>
+                                        <img src={integromat} alt="" />
+                                    </div>
+
+
+                                    <div className="marquee-item">
+                                        <img src={mcLogo} alt="" />
                                     </div>
 
                                     <div className="marquee-item">
-                                        <img src={image4} alt=""/>
+                                        <img src={image4} alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -403,39 +403,39 @@ function Home() {
                     <div className="row gx-lg-5 gx-sm-2">
                         <div className="col-lg-5 col-md-12 col-12 order-lg-1 order-md-2 order-2 my-auto">
                             <div className="mt-4 mt-md-4 mt-lg-0">
-                                <img src={enhanceIcon} className="services-icon " width="70" alt=""/>
-                                    <h4 className="mt-3">Enhance and Expand Your Business Processes </h4>
-                                    <p className="mt-3 fs-5">Our experienced Podio Certified consultants specializes in customized Podio
-                                        consulting, integration and implementation to a wide variety of industries that your CRM
-                                        strategy is designed and executed professionally, cost-effectively and with minimal disruption
-                                        to your business.</p>
+                                <img src={enhanceIcon} className="services-icon " width="70" alt="" />
+                                <h4 className="mt-3">Enhance and Expand Your Business Processes </h4>
+                                <p className="mt-3 fs-5">Our experienced Podio Certified consultants specializes in customized Podio
+                                    consulting, integration and implementation to a wide variety of industries that your CRM
+                                    strategy is designed and executed professionally, cost-effectively and with minimal disruption
+                                    to your business.</p>
                             </div>
 
                         </div>
                         <div className="col-lg-7 col-md-12 col-12 order-lg-2 order-md-1 order-1 my-auto mx-auto  ">
                             <div className="services-img">
-                                <img src={enhance_expand} className="rounded-4" alt=""/>
+                                <img src={enhance_expand} className="rounded-4" alt="" />
                             </div>
                         </div>
                     </div>
                     <div className="separated my-5">
-                        <img src={underline_black} alt=""/>
+                        <img src={underline_black} alt="" />
                     </div>
                     <div className="row gx-lg-5 gx-sm-2">
                         <div className="col-lg-5 col-md-12 col-12 order-lg-2 order-md-2 order-2 my-auto">
                             <div className="mt-4 mt-md-4 mt-lg-0">
-                                <img src={customize_icon} className="services-icon" width="70" alt=""/>
-                                    <h4 className="mt-3">Customize, Optimize and Fine-Tune Your Podio</h4>
-                                    <p className="mt-3 fs-5">We know that off-the-shelf Citrix Podio cannot suffice your unique business needs
-                                        and not able to give the desired outcome, it has to be customized. Understanding your business
-                                        needs, we customize and provide Podio solutions at affordable prices. We guarantee performance
-                                        efficiency and automation in your business.</p>
+                                <img src={customize_icon} className="services-icon" width="70" alt="" />
+                                <h4 className="mt-3">Customize, Optimize and Fine-Tune Your Podio</h4>
+                                <p className="mt-3 fs-5">We know that off-the-shelf Citrix Podio cannot suffice your unique business needs
+                                    and not able to give the desired outcome, it has to be customized. Understanding your business
+                                    needs, we customize and provide Podio solutions at affordable prices. We guarantee performance
+                                    efficiency and automation in your business.</p>
                             </div>
 
                         </div>
                         <div className="col-lg-7 col-md-12 col-12 order-lg-1 order-md-1 order-1 my-auto mx-auto  ">
                             <div className="services-img">
-                                <img src={customize} className="rounded-4" alt=""/>
+                                <img src={customize} className="rounded-4" alt="" />
                             </div>
                         </div>
                     </div>
@@ -446,25 +446,103 @@ function Home() {
             <section className="testimonials bg-deepNavyBlue mb-5">
                 <div className="container py-5">
                     <div className="row gx-lg-5 gx-sm-2">
-                        <div className="col-lg-4 col-md-12 col-12 order-lg-2  my-auto  text-white">
+                        <div className="col-lg-5 col-md-12 col-12 order-lg-2  my-auto  text-white">
                             <div className="mb-4 mb-md-4 mb-lg-0">
-                                <img src="https://rei-property-invest.netlify.app/assets/images/icon/26.svg" alt=""/>
-
-                                    <h1 className="mb-4 mt-3 fs-1">What’s
-                                        Our Client Say
-                                        About Us</h1>
+                                <img src="https://rei-property-invest.netlify.app/assets/images/icon/26.svg" alt="" />
+                                <h1 className="intro-sub-head mt-3">80+ Happy Clients</h1>
+                                <h1 className="fs-1">What’s
+                                    Our Client Say
+                                    About Us</h1>
                             </div>
 
                         </div>
-                        <div className="col-lg-8 col-md-12 col-12  order-lg-1 my-auto my-auto mx-auto right-content ">
+                        <div className="col-lg-7 col-md-12 col-12  order-lg-1 my-auto my-auto mx-auto right-content ">
+
+                            <marquee direction="up" height="300px" loop>
+                                <div class="row justify-content-center mx-lg-5 mx-2 gx-lg-3 gy-lg-3 gx-2 gy-2">
+                                    <div class="col-lg-12 col-md-6 d-flex ">
+                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
+                                            <h5 className="title fw-bold my-2">Edward</h5>
+
+                                            <p className="text">Anuj completed the job on time and delivered what we asked for.
+                                                He actually did additional work from the initial job description and made sure
+                                                we were completely satisfied. </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-6 d-flex  ">
+                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
+
+                                            <h5 className="title fw-bold my-2">Shad Nojumi</h5>
+                                            <p className="text">"Exceptionally excellent job loading my list in the CRM. I will
+                                                hire him again for the automation. Particularly good responsive person and
+                                                always available to respond to the customer." </p>      </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-6 d-flex ">
+                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
+                                            <h5 className="title fw-bold my-2">Jorge</h5>
+                                            <p className="text">Anuj is very communicative, he had great ideas that saved me
+                                                money and made the automations less complex, and he worked very quickly and was
+                                                quite proactive. </p> </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-6 d-flex ">
+                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
+                                            <h5 className="title fw-bold my-2">Steve</h5>
+
+                                            <p className="text">Anuj did what he promised in Klipfolio which was
+                                                technically
+                                                quite hard. </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-6 d-flex ">
+                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
+                                            <h5 className="title fw-bold my-2">Michael</h5>
+                                            <p className="text">Anuj has great ideas... and is great to work with. Has a great
+                                                sense of business processes and how to implement these with Podio. </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-6 d-flex ">
+                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
+                                            <h5 className="title fw-bold my-2">Jorge</h5>
+                                            <p className="text"> "Hire Anuj for any Podio-related development. He is
+                                                knowledgeable, kind and does his work efficiently. I will 1000% hire him again!
+                                                Thank you Anuj. Until next time." </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-6 d-flex ">
+                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
+                                            <h5 className="title fw-bold my-2">Tina</h5>
+                                            <p className="text">Great communication and completed the work with very little
+                                                direction, fast turnaround. </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-6 d-flex ">
+                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
+                                            <h5 className="title fw-bold my-2">Mike Theisen </h5>
+                                            <p className="text">Anuj did an excellent job and completed the job fast and
+                                                efficiently while also walking me through his process working with podio. Will
+                                                definitely recommend . </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-6 d-flex ">
+                                        <div class="bg-white p-4 rounded-3 apps-card fs-5">
+                                            <h5 className="title fw-bold my-2">Gal Shani </h5>
+                                            <p className="text">Nice job, thanks for adding the Real Estate app for Podio. </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </marquee>
+                        </div>
+
+                        {/* <div className="col-lg-8 col-md-12 col-12  order-lg-1 my-auto my-auto mx-auto right-content ">
                             <div className="marquee">
                                 <div className="marquee-content">
                                     <div className="marquee-item">
                                         <div className="card">
-                                            <div className="card-body fs-5">
-                                                <h5 className="card-title">Edward</h5>
+                                            <div className="body fs-5">
+                                                <h5 className="title fw-bold my-2">Edward</h5>
 
-                                                <p className="card-text">Anuj completed the job on time and delivered what we asked for.
+                                                <p className="text">Anuj completed the job on time and delivered what we asked for.
                                                     He actually did additional work from the initial job description and made sure
                                                     we were completely satisfied. </p>
                                             </div>
@@ -474,9 +552,9 @@ function Home() {
 
                                     <div className="marquee-item">
                                         <div className="card">
-                                            <div className="card-body fs-5 my-auto">
-                                                <h5 className="card-title">Shad Nojumi</h5>
-                                                <p className="card-text">"Exceptionally excellent job loading my list in the CRM. I will
+                                            <div className="body fs-5 my-auto">
+                                                <h5 className="title fw-bold my-2">Shad Nojumi</h5>
+                                                <p className="text">"Exceptionally excellent job loading my list in the CRM. I will
                                                     hire him again for the automation. Particularly good responsive person and
                                                     always available to respond to the customer." </p>
                                             </div>
@@ -485,9 +563,9 @@ function Home() {
 
                                     <div className="marquee-item">
                                         <div className="card">
-                                            <div className="card-body fs-5">
-                                                <h5 className="card-title">Jorge</h5>
-                                                <p className="card-text">Anuj is very communicative, he had great ideas that saved me
+                                            <div className="body fs-5">
+                                                <h5 className="title fw-bold my-2">Jorge</h5>
+                                                <p className="text">Anuj is very communicative, he had great ideas that saved me
                                                     money and made the automations less complex, and he worked very quickly and was
                                                     quite proactive. </p>
                                             </div>
@@ -495,11 +573,11 @@ function Home() {
                                     </div>
                                     <div className="marquee-item">
                                         <div className="card ">
-                                            <div className="card-body fs-5">
+                                            <div className="body fs-5">
                                                 <div className="my-auto">
-                                                    <h5 className="card-title">Steve</h5>
+                                                    <h5 className="title fw-bold my-2">Steve</h5>
 
-                                                    <p className="card-text">Anuj did what he promised in Klipfolio which was
+                                                    <p className="text">Anuj did what he promised in Klipfolio which was
                                                         technically
                                                         quite hard. </p>
                                                 </div>
@@ -509,18 +587,18 @@ function Home() {
                                     </div>
                                     <div className="marquee-item">
                                         <div className="card">
-                                            <div className="card-body fs-5">
-                                                <h5 className="card-title">Michael</h5>
-                                                <p className="card-text">Anuj has great ideas... and is great to work with. Has a great
+                                            <div className="body fs-5">
+                                                <h5 className="title fw-bold my-2">Michael</h5>
+                                                <p className="text">Anuj has great ideas... and is great to work with. Has a great
                                                     sense of business processes and how to implement these with Podio. </p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="marquee-item">
                                         <div className="card">
-                                            <div className="card-body fs-5">
-                                                <h5 className="card-title">Jorge</h5>
-                                                <p className="card-text"> "Hire Anuj for any Podio-related development. He is
+                                            <div className="body fs-5">
+                                                <h5 className="title fw-bold my-2">Jorge</h5>
+                                                <p className="text"> "Hire Anuj for any Podio-related development. He is
                                                     knowledgeable, kind and does his work efficiently. I will 1000% hire him again!
                                                     Thank you Anuj. Until next time." </p>
                                             </div>
@@ -528,18 +606,18 @@ function Home() {
                                     </div>
                                     <div className="marquee-item">
                                         <div className="card">
-                                            <div className="card-body fs-5">
-                                                <h5 className="card-title">Tina</h5>
-                                                <p className="card-text">Great communication and completed the work with very little
+                                            <div className="body fs-5">
+                                                <h5 className="title fw-bold my-2">Tina</h5>
+                                                <p className="text">Great communication and completed the work with very little
                                                     direction, fast turnaround. </p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="marquee-item">
                                         <div className="card">
-                                            <div className="card-body fs-5">
-                                                <h5 className="card-title">Mike Theisen </h5>
-                                                <p className="card-text">Anuj did an excellent job and completed the job fast and
+                                            <div className="body fs-5">
+                                                <h5 className="title fw-bold my-2">Mike Theisen </h5>
+                                                <p className="text">Anuj did an excellent job and completed the job fast and
                                                     efficiently while also walking me through his process working with podio. Will
                                                     definitely recommend . </p>
                                             </div>
@@ -547,15 +625,15 @@ function Home() {
                                     </div>
                                     <div className="marquee-item">
                                         <div className="card">
-                                            <div className="card-body fs-5">
-                                                <h5 className="card-title">Gal Shani </h5>
-                                                <p className="card-text">Nice job, thanks for adding the Real Estate app for Podio. </p>
+                                            <div className="body fs-5">
+                                                <h5 className="title fw-bold my-2">Gal Shani </h5>
+                                                <p className="text">Nice job, thanks for adding the Real Estate app for Podio. </p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
 
 
