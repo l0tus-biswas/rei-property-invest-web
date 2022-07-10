@@ -102,12 +102,16 @@ function Features(){
 
                 </div>
                 <div className="col-lg-6 col-md-12 col-12 my-auto mx-auto "  data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
-                    <div className="intro-img mx-auto">
+                 <a href="https://www.youtube.com/watch?v=MUmxK-7MKLI" target="blank"> 
+                 <div className="intro-img mx-auto">
                         <img src={podioSuit}
                             className="img-fluid rounded-5" alt=""/>
                         <img src={playButton} className="play-button" alt=""/>
 
                     </div>
+
+                 </a>
+                   
                 </div>
 
 
