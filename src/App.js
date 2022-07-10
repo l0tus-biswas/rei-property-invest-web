@@ -32,7 +32,7 @@ function App() {
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/video-demos" element={<VideoDemos />} />
           <Route path="/our-integration-services" element={<Integration />} />
-          <Route path="/terms-privacy" element={<TermsPrivacy />} />
+          <Route path="/terms-and-privacy" element={<TermsPrivacy />} />
         </Routes>
         <Footer />
       </BrowserRouter>
