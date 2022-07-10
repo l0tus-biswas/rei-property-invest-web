@@ -1,2 +1,6 @@
 # REI Property Invest
-<img src="https://rei-website.netlify.app/static/media/logo.7bb75ce014993021d20b.jpg" width="60%" />
+
+<p align="center">
+  <img width="500" src="https://rei-website.netlify.app/static/media/logo.7bb75ce014993021d20b.jpg">
+</p>
+
