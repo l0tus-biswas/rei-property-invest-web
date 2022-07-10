@@ -14,6 +14,7 @@ import About from './components/About/About';
 import Pricing from './components/Pricing/Pricing';
 import Services from './components/Services/Services';
 import VideoDemos from './components/VideoDemos/VideoDemos';
+import Integration from './components/Integration/Integration';
 
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
           <Route path="/features" element={<Features />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/video-demos" element={<VideoDemos />} />
+          <Route path="/our-integration-services" element={<Integration />} />
+          
         </Routes>
         <Footer />
       </BrowserRouter>
