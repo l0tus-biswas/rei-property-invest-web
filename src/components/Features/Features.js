@@ -31,7 +31,7 @@ function Features(){
      <section className="features-intro mb-5">
         <div className="container py-5 ">
             <div className="row gx-lg-5 gx-sm-2 d-flex justify-content-center ">
-                <div className="col-lg-7 col-md-10 col-12 my-auto text-center">
+                <div className="col-lg-7 col-md-10 col-12 my-auto text-center"  data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="200">
                     <div className="say">
                         <h1>Get effective solution for your business</h1>
                         <p className="fs-4 mt-3">Get all types of corporate solutions to start your adventure with REI
@@ -91,7 +91,7 @@ function Features(){
                     </div>
 
                 </div>
-                <div className="col-lg-6 col-md-12 col-12 my-auto mx-auto ">
+                <div className="col-lg-6 col-md-12 col-12 my-auto mx-auto "  data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
                     <div className="intro-img mx-auto">
                         <img src={podioSuit}
                             className="img-fluid rounded-5" alt=""/>

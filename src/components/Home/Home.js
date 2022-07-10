@@ -29,7 +29,10 @@ import enhance_expand from "../../assets/images/services/enhance_expand.png"
 import customize_icon from "../../assets/images/services/customize-icon.png"
 import customize from "../../assets/images/services/customize.png"
 import underline_black from "../../assets/images/svg/line-shape-1.svg"
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 
 function Home() {
@@ -51,7 +54,7 @@ function Home() {
                             </div>
 
                         </div>
-                        <div className="col-lg-6 col-md-12 col-12 order-1 order-lg-2 my-auto">
+                        <div className="col-lg-6 col-md-12 col-12 order-1 order-lg-2 my-auto"  data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
                             <div className="intro-img">
                                 <img src={podioIntro} className="img-fluid" alt="" />
                                 <div className="shapes">
@@ -103,7 +106,7 @@ function Home() {
                         </div>
                     </div>
                     <div className="row justify-content-center mx-lg-5 mx-2 gx-lg-3 gy-lg-3 gx-2 gy-2">
-                        <div className="col-lg-5 col-md-5 d-flex  ">
+                        <div className="col-lg-5 col-md-5 d-flex  " data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
                             <div className="bg-white p-4 rounded-3">
                                 <div className="icon"><img src={cusstomization} alt="" className="mb-3" /></div>
                                 <h6 className="fw-bold fs-5"><span>Citrix Podio Customization</span>
@@ -111,7 +114,7 @@ function Home() {
                                 <p className="fs-5 mt-3">Modeling your business processes to manage sales channels effectively.</p>
                             </div>
                         </div>
-                        <div className="col-lg-5 col-md-5 d-flex  ">
+                        <div className="col-lg-5 col-md-5 d-flex  " data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
                             <div className="bg-white p-4 rounded-3">
                                 <div className="icon"><img src={integration} alt="" className="mb-3" /></div>
                                 <h6 className="fw-bold fs-5"><span>Citrix Podio Integration</span>
@@ -120,7 +123,7 @@ function Home() {
                                     applications. </p>
                             </div>
                         </div>
-                        <div className="col-lg-5 col-md-5 d-flex ">
+                        <div className="col-lg-5 col-md-5 d-flex " data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">
                             <div className="bg-white p-4 rounded-3">
                                 <div className="icon"><img src={automation} alt="" className="mb-3" /></div>
                                 <h6 className="fw-bold fs-5"><span>Citrix Podio Automation</span>
@@ -128,7 +131,7 @@ function Home() {
                                 <p className="fs-5  mt-3">Make your business automated end to end through our services.</p>
                             </div>
                         </div>
-                        <div className="col-lg-5 col-md-5 d-flex ">
+                        <div className="col-lg-5 col-md-5 d-flex " data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
                             <div className="bg-white p-4 rounded-3">
                                 <div className="icon"><img src={analysis} alt="" className="mb-3" /></div>
                                 <h6 className="fw-bold fs-5"><span>Citrix Podio Analysis</span></h6>
@@ -146,7 +149,7 @@ function Home() {
             <section className="why-choose-us mb-5">
                 <div className="container py-5  border">
                     <div className="row gx-lg-5 gx-sm-2">
-                        <div className="col-lg-6 col-md-12 col-12 my-auto">
+                        <div className="col-lg-6 col-md-12 col-12 my-auto" >
                             <div className="mb-4 mb-md-4 mb-lg-0">
                                 <h1 className="intro-sub-head">GET STARTED IN MINUTES</h1>
                                 <h1 className="mb-4 fs-1">3 main Reasons to choose us.</h1>
@@ -250,7 +253,7 @@ function Home() {
                         </div>
                     </div>
                     <div className="row justify-content-center mx-lg-5 mx-2 gx-lg-3 gy-lg-3 gx-2 gy-2">
-                        <div className="col-lg-6 col-md-12 d-flex  ">
+                        <div className="col-lg-6 col-md-12 d-flex  "  data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100" >
                             <div className="bg-white p-4 borderLeft">
                                 <div className="d-flex align-items-start"><img
                                     src={realEstateCRM} alt="icon" className="icon" />
@@ -262,7 +265,7 @@ function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6 col-md-12 d-flex  ">
+                        <div className="col-lg-6 col-md-12 d-flex  "  data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
                             <div className="bg-white p-4 borderLeft">
                                 <div className="d-flex align-items-start"><img src={retailCRM}
                                     alt="icon" className="icon" />
@@ -274,7 +277,7 @@ function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6 col-md-12 d-flex   ">
+                        <div className="col-lg-6 col-md-12 d-flex   "  data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">
                             <div className="bg-white p-4 borderLeft">
                                 <div className="d-flex align-items-start"><img
                                     src={manufactureringCRM} alt="icon" className="icon" />
@@ -285,7 +288,7 @@ function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6 col-md-12 d-flex   ">
+                        <div className="col-lg-6 col-md-12 d-flex   "  data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
                             <div className="bg-white p-4 borderLeft">
                                 <div className="d-flex align-items-start"><img
                                     src={field_serviceCRM} alt="icon"
@@ -297,7 +300,7 @@ function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6 col-md-12 d-flex   ">
+                        <div className="col-lg-6 col-md-12 d-flex   "  data-aos="fade-up" data-aos-duration="1200" data-aos-delay="500">
                             <div className="bg-white p-4 borderLeft">
                                 <div className="d-flex align-items-start"><img
                                     src={travel_hos_CRM} alt="icon" className="icon" />
@@ -309,7 +312,7 @@ function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6 col-md-12 d-flex   ">
+                        <div className="col-lg-6 col-md-12 d-flex   "  data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
                             <div className="bg-white p-4 borderLeft">
                                 <div className="d-flex align-items-start"><img
                                     src={solarCRM} alt="icon" className="icon" />
@@ -401,7 +404,7 @@ function Home() {
                         </div>
                     </div>
                     <div className="row gx-lg-5 gx-sm-2">
-                        <div className="col-lg-5 col-md-12 col-12 order-lg-1 order-md-2 order-2 my-auto">
+                        <div className="col-lg-5 col-md-12 col-12 order-lg-1 order-md-2 order-2 my-auto" >
                             <div className="mt-4 mt-md-4 mt-lg-0">
                                 <img src={enhanceIcon} className="services-icon " width="70" alt="" />
                                 <h4 className="mt-3">Enhance and Expand Your Business Processes </h4>
@@ -412,7 +415,7 @@ function Home() {
                             </div>
 
                         </div>
-                        <div className="col-lg-7 col-md-12 col-12 order-lg-2 order-md-1 order-1 my-auto mx-auto  ">
+                        <div className="col-lg-7 col-md-12 col-12 order-lg-2 order-md-1 order-1 my-auto mx-auto  "  data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">
                             <div className="services-img">
                                 <img src={enhance_expand} className="rounded-4" alt="" />
                             </div>
@@ -433,7 +436,7 @@ function Home() {
                             </div>
 
                         </div>
-                        <div className="col-lg-7 col-md-12 col-12 order-lg-1 order-md-1 order-1 my-auto mx-auto  ">
+                        <div className="col-lg-7 col-md-12 col-12 order-lg-1 order-md-1 order-1 my-auto mx-auto  "  data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
                             <div className="services-img">
                                 <img src={customize} className="rounded-4" alt="" />
                             </div>
@@ -446,7 +449,7 @@ function Home() {
             <section className="testimonials bg-deepNavyBlue mb-5">
                 <div className="container py-5">
                     <div className="row gx-lg-5 gx-sm-2">
-                        <div className="col-lg-5 col-md-12 col-12 order-lg-2  my-auto  text-white">
+                        <div className="col-lg-5 col-md-12 col-12 order-lg-2  my-auto  text-white"  data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="200">
                             <div className="mb-4 mb-md-4 mb-lg-0">
                                 <img src="https://rei-property-invest.netlify.app/assets/images/icon/26.svg" alt="" />
                                 <h1 className="intro-sub-head mt-3">50+ Happy Clients</h1>

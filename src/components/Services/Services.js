@@ -19,7 +19,7 @@ function Services(){
      <section className="services-intro mb-5">
         <div className="container py-5 ">
             <div className="row gx-lg-5 gx-sm-2 justify-content-center ">
-                <div className="col-lg-7 col-md-10 col-12 my-auto text-center">
+                <div className="col-lg-7 col-md-10 col-12 my-auto text-center"  data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="200">
                     <div className="say">
                         <h1 className="">Our Services</h1>
                         <p className="fs-4 mt-3">We are a creative company that focuses on establishing long-term relationships with customers</p>
@@ -140,7 +140,7 @@ function Services(){
                     </div>
 
                 </div>
-                <div className="col-lg-7 col-md-12 col-12 order-lg-2 order-md-1 order-1 my-auto mx-auto  ">
+                <div className="col-lg-7 col-md-12 col-12 order-lg-2 order-md-1 order-1 my-auto mx-auto  "  data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
                     <div className="services-img ">
                         <img src={crmSuit} className="rounded-4" alt="" />
                     </div>
@@ -160,7 +160,7 @@ function Services(){
                     </div>
 
                 </div>
-                <div className="col-lg-7 col-md-12 col-12 order-lg-1 order-md-1 order-1 my-auto mx-auto  ">
+                <div className="col-lg-7 col-md-12 col-12 order-lg-1 order-md-1 order-1 my-auto mx-auto  "  data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">
                     <div className="services-img">
                         <img src={kpiTracker} alt="" className="rounded-4"/>
                     </div>
@@ -182,7 +182,7 @@ function Services(){
                     </div>
 
                 </div>
-                <div className="col-lg-7 col-md-12 col-12 order-lg-2 order-md-1 order-1 my-auto mx-auto  ">
+                <div className="col-lg-7 col-md-12 col-12 order-lg-2 order-md-1 order-1 my-auto mx-auto  " data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
                     <div className="services-img">
                         <img src={smsBlast} className="rounded-4" alt=""/>
                     </div>

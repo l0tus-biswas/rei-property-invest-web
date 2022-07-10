@@ -11,7 +11,7 @@ function About() {
          <section className="about-intro mb-5">
         <div className="container py-5 ">
             <div className="row gx-lg-5 gx-sm-2 justify-content-center ">
-                <div className="col-lg-7 col-md-10 col-12 my-auto text-center">
+                <div className="col-lg-7 col-md-10 col-12 my-auto text-center"  data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="200">
                     <div className="say">
                         <h1>About us</h1>
                         <p className="fs-4 mt-3">Learn what define us a team and as a company</p>
@@ -91,7 +91,7 @@ function About() {
         <div className="container py-5">
 
             <div className="row justify-content-center mx-lg-5 mx-2 gx-lg-3 gy-lg-3 gx-2 gy-2">
-                <div className="col-lg-4 col-md-12  ">
+                <div className="col-lg-4 col-md-12  "  data-aos="flip-left" data-aos-duration="1200" data-aos-delay="200">
                     <div className="bg-deepNavyBlue text-white p-4 borderLeft">
                         <div className="text-center"><img
                                 src={jobsSuccess}
@@ -103,7 +103,7 @@ function About() {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-4 col-md-12  ">
+                <div className="col-lg-4 col-md-12  "  data-aos="flip-up" data-aos-duration="1200" data-aos-delay="400">
                     <div className="bg-deepNavyBlue text-white p-4 borderLeft">
                         <div className="text-center"><img
                                 src={activeClients}
@@ -115,7 +115,7 @@ function About() {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-4 col-md-12   ">
+                <div className="col-lg-4 col-md-12   "  data-aos="flip-left" data-aos-duration="1200" data-aos-delay="600">
                     <div className="bg-deepNavyBlue text-white p-4 borderLeft">
                         <div className="text-center"><img
                                 src={happyCustomers}
