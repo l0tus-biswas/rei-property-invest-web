@@ -2,6 +2,10 @@
 .navigation {
     margin-top: 100px;
 }
+.navigation .navbar{
+      box-shadow: rgba(99, 99, 99, 0.105) 0px 2px 8px 0px;
+   
+}
 
 .navbar ul li {
     margin: 0 20px;

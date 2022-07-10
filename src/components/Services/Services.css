@@ -140,3 +140,19 @@
 .services-product a:hover{
 text-decoration: underline;
 }
+
+.services-product h4:first-child{
+    position: relative;
+    display: inline-block;
+}
+.services-product h4:first-child:before {
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: #ff9301;
+    border-radius: 2px;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    overflow: hidden;
+}

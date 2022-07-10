@@ -70,7 +70,7 @@ function Integration() {
                         </div>
                         <div className="col-lg-8 col-md-12 col-12  order-lg-1 my-auto my-auto mx-auto right-content ">
 
-                            <marquee direction="up" Scrollamount={7} height="500px" loop>
+                            <marquee direction="up" scrollamount={7} height="500px" loop>
                                 <div class="row justify-content-center mx-lg-5 mx-2 gx-lg-3 gy-lg-3 gx-2 gy-2">
                                     <div class="col-lg-4 col-md-6 col-6 d-flex ">
                                         <div class="bg-white p-3 rounded-3 apps-card">

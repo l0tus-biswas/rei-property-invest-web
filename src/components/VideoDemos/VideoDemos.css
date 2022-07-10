@@ -84,7 +84,7 @@
 
 
 
- .video-demos-videos.borderLeft {
+ .video-demos-videos .borderLeft {
      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
      border-style: none;
      border-bottom-style: solid;

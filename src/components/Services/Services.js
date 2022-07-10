@@ -44,9 +44,8 @@ function Services(){
                         <h1 class="mb-4 fs-1">We are the Podio Integration Experts</h1>
                         <p class="fs-5">We will customize and integrate Podio with the best business applications/system through REST
                             /SOAP based web services.</p>
-                        <button type="button" class="btn btn-orange me-2 mb-2 col-lg-6 col-md-12 col-12">Check all our
-                            integration</button>
-
+                            <a href="our-integration-services" class="btn btn-orange me-2 mb-2 col-lg-6 col-md-12 col-12">Check all our
+                            integrations</a>
                     </div>
 
                 </div>
@@ -107,9 +106,9 @@ function Services(){
                 <div class="col-lg-7 col-md-12 col-12 my-auto text-center">
                     <div class="mb-4 mb-md-4 mb-lg-0">
                         <h1 class="mb-4 fs-1">Convinced to work on a new project ?</h1>
-                        <button type="button" class="btn btn-outline-orange-tdark col-lg-6 col-md-12 col-12 mb-3">Choose
-                            Plan</button>
-
+                        <a href="pricing" class="btn btn-outline-orange-tdark col-lg-6 col-md-12 col-12 mb-3">Choose
+                            Plan</a>
+                        
                     </div>
 
                 </div>
@@ -134,7 +133,7 @@ function Services(){
                     <div class="mt-4 mt-md-4 mt-lg-0">
                         <h4 class="mt-3">PODIO SUITE FOR REAL ESTATE</h4>
 
-                        <h4 class="fs-1 mt-3">Customizable 25+ Podio in built feature</h4>
+                        <h4 class="fs-1 mt-2">Customizable 25+ Podio in built feature</h4>
                         <p class="fs-5 mt-3">The only Podio dashbaard you need to get started with your business with power
                             pack features only at <span class="fw-bold">$1500</span>. This is a one time payment with 3 months free of service on our
                             product.</p>
@@ -142,8 +141,8 @@ function Services(){
 
                 </div>
                 <div class="col-lg-7 col-md-12 col-12 order-lg-2 order-md-1 order-1 my-auto mx-auto  ">
-                    <div class="services-img">
-                        <img src={crmSuit} alt="" />
+                    <div class="services-img ">
+                        <img src={crmSuit} className="rounded-4" alt="" />
                     </div>
                 </div>
             </div>
@@ -155,7 +154,7 @@ function Services(){
                     <div class="mt-4 mt-md-4 mt-lg-0">
                         <h4 class="mt-3">KPI TRACKER</h4>
 
-                        <h4 class="fs-1 mt-3">Analytical performance of your business sales</h4>
+                        <h4 class="fs-1 mt-2">Analytical performance of your business sales</h4>
                         <p class="fs-5 mt-3">KPI Tracker available only at <span class="fw-bold">$49 /- month </span>to track all the activities of the
                             people working in your organization. To know more <a href="https://www.youtube.com/watch?v=57CkQMqwuAw&feature=youtu.be">click here.</a> </p>
                     </div>
@@ -163,7 +162,7 @@ function Services(){
                 </div>
                 <div class="col-lg-7 col-md-12 col-12 order-lg-1 order-md-1 order-1 my-auto mx-auto  ">
                     <div class="services-img">
-                        <img src={kpiTracker} alt=""/>
+                        <img src={kpiTracker} alt="" className="rounded-4"/>
                     </div>
                 </div>
             </div>
@@ -176,7 +175,7 @@ function Services(){
                         <h4 class="mt-3">
                             BLUK SMS PLATFORM</h4>
 
-                        <h4 class="fs-1 mt-3">Powerful and Quick delivery of SMS</h4>
+                        <h4 class="fs-1 mt-2">Powerful and Quick delivery of SMS</h4>
                         <p class="fs-5 mt-3">You don’t need to purchase any other system when you can directly do the Bulk
                             SMS Campaigns from Podio itself only at <span class="fw-bold">$49 /- month</span>. You just need a Twilio account and an
                             Amazon EC-2 server.</p>
@@ -185,7 +184,7 @@ function Services(){
                 </div>
                 <div class="col-lg-7 col-md-12 col-12 order-lg-2 order-md-1 order-1 my-auto mx-auto  ">
                     <div class="services-img">
-                        <img src={smsBlast} alt=""/>
+                        <img src={smsBlast} className="rounded-4" alt=""/>
                     </div>
                 </div>
             </div>

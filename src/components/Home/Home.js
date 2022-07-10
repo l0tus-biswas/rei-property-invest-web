@@ -45,8 +45,9 @@ function Home() {
                                 <h1 className="mb-4">Customization Services</h1>
 
                                 <p className="fs-3 mb-4">Get your CRM customization done right and maximize your Podio Investment</p>
-                                <button type="button" className="btn btn-orange me-2 mb-2 col-12">Get Started</button>
-                                <button type="button" className="btn btn-outline-orange col-12">Schedule a Meeting</button>
+                                <a href="https://podio.com/webforms/27230732/2095872" className="btn btn-orange me-2 mb-2 col-12" target="blank"><span className="fs-5 fw-bold">Get Started</span></a>
+
+                                <a href="https://calendly.com/meetmehere/30min?month=2022-07" className="btn btn-outline-orange col-12" target="blank"><span className=" fs-5 fw-bold">Schedule a Meeting</span></a>
                             </div>
 
                         </div>
@@ -330,11 +331,10 @@ function Home() {
                     <div className="row gx-lg-5 gx-sm-2">
                         <div className="col-lg-6 col-md-12 col-12 my-auto">
                             <div className="mb-4 mb-md-4 mb-lg-0">
-                                <h1 className="intro-sub-head">20+ Integration</h1>
+                                <h1 className="intro-sub-head">40+ Integrations</h1>
                                 <h1 className="mb-4 fs-1">Integrate Podio with the software you use every day</h1>
-                                <button type="button" className="btn btn-orange me-2 mb-2 col-lg-6 col-md-12 col-12">Check all our
-                                    integration</button>
-
+                                <a href="our-integration-services" target="blank"  className="btn btn-orange me-2 mb-2 col-lg-6 col-md-12 col-12">Check all our
+                                    integrations</a>
                             </div>
 
                         </div>
@@ -442,14 +442,14 @@ function Home() {
                 </div>
             </section>
 
-
+            <svg id="wave" style={{ transform: "rotate(0deg)", transition: "0.3s" }} viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stopColor="rgba(74, 0, 224, 1)" offset="0%"></stop><stop stopColor="rgba(74, 0, 224, 1)" offset="100%"></stop></linearGradient></defs><path style={{ transform: "translate(0, 0px)", opacity: "1" }} fill="url(#sw-gradient-0)" d="M0,10L48,15C96,20,192,30,288,38.3C384,47,480,53,576,46.7C672,40,768,20,864,16.7C960,13,1056,27,1152,35C1248,43,1344,47,1440,53.3C1536,60,1632,70,1728,75C1824,80,1920,80,2016,81.7C2112,83,2208,87,2304,80C2400,73,2496,57,2592,41.7C2688,27,2784,13,2880,21.7C2976,30,3072,60,3168,61.7C3264,63,3360,37,3456,31.7C3552,27,3648,43,3744,41.7C3840,40,3936,20,4032,11.7C4128,3,4224,7,4320,11.7C4416,17,4512,23,4608,30C4704,37,4800,43,4896,38.3C4992,33,5088,17,5184,11.7C5280,7,5376,13,5472,15C5568,17,5664,13,5760,21.7C5856,30,5952,50,6048,55C6144,60,6240,50,6336,45C6432,40,6528,40,6624,36.7C6720,33,6816,27,6864,23.3L6912,20L6912,100L6864,100C6816,100,6720,100,6624,100C6528,100,6432,100,6336,100C6240,100,6144,100,6048,100C5952,100,5856,100,5760,100C5664,100,5568,100,5472,100C5376,100,5280,100,5184,100C5088,100,4992,100,4896,100C4800,100,4704,100,4608,100C4512,100,4416,100,4320,100C4224,100,4128,100,4032,100C3936,100,3840,100,3744,100C3648,100,3552,100,3456,100C3360,100,3264,100,3168,100C3072,100,2976,100,2880,100C2784,100,2688,100,2592,100C2496,100,2400,100,2304,100C2208,100,2112,100,2016,100C1920,100,1824,100,1728,100C1632,100,1536,100,1440,100C1344,100,1248,100,1152,100C1056,100,960,100,864,100C768,100,672,100,576,100C480,100,384,100,288,100C192,100,96,100,48,100L0,100Z"></path></svg>
             <section className="testimonials bg-deepNavyBlue mb-5">
                 <div className="container py-5">
                     <div className="row gx-lg-5 gx-sm-2">
                         <div className="col-lg-5 col-md-12 col-12 order-lg-2  my-auto  text-white">
                             <div className="mb-4 mb-md-4 mb-lg-0">
                                 <img src="https://rei-property-invest.netlify.app/assets/images/icon/26.svg" alt="" />
-                                <h1 className="intro-sub-head mt-3">80+ Happy Clients</h1>
+                                <h1 className="intro-sub-head mt-3">50+ Happy Clients</h1>
                                 <h1 className="fs-1">What’s
                                     Our Client Say
                                     About Us</h1>
@@ -458,7 +458,7 @@ function Home() {
                         </div>
                         <div className="col-lg-7 col-md-12 col-12  order-lg-1 my-auto my-auto mx-auto right-content ">
 
-                            <marquee direction="up" Scrollamount={3} height="300px" loop>
+                            <marquee direction="up" scrollamount={3} height="300px" loop>
                                 <div class="row justify-content-center mx-lg-5 mx-2 gx-lg-3 gy-lg-3 gx-2 gy-2">
                                     <div class="col-lg-12 col-md-6 d-flex ">
                                         <div class="bg-white p-4 rounded-3 apps-card fs-5">

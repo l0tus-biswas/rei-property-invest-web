@@ -137,7 +137,7 @@ function About() {
         <div class="container py-5">
             <div class="row text-center mb-3">
                 <div class="col-12">
-                    <h1 class="intro-sub-head">OUR TEAM</h1>
+                    <h1 class="intro-sub-head">OUR AMAZING TEAM</h1>
                 </div>
                 <div class="col-12">
                     <h1 class="fs-1">Meet the Magicians Who Work their magic Using these Props!</h1>

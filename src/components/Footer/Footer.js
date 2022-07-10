@@ -2,7 +2,7 @@ import "./Footer.css"
 function Footer() {
     return (
         <>
-            <div className="container fs-5 ">
+            <div className="container fs-5 fw-bold  ">
                 <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
                     <p className="col-md-4 mb-0 ">© 2022 Company, Inc</p>
 
@@ -13,9 +13,9 @@ function Footer() {
                         </svg>
                     </a>
 
-                    <ul className="nav col-md-4 justify-content-end">
+                    <ul className="nav col-md-4 justify-content-end ">
                         <li className="nav-item"><a href="#" className="nav-link px-2">Privacy & Terms.</a></li>
-                        <li className="nav-item"><a href="#" className="nav-link px-2">Contact</a></li>
+                        <li className="nav-item"><a href="https://podio.com/webforms/27230732/2095872" target="blank" className="nav-link px-2">Contact</a></li>
                     </ul>
                 </footer>
             </div>

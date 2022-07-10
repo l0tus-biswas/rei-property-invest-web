@@ -46,7 +46,7 @@ function Navbar() {
                                 </li>
                             </ul>
                             <div>
-                                <button type="button" className="btn btn-orange ">Let's Talk Business</button>
+                                <a href="https://podio.com/webforms/27230732/2095872" className="btn btn-orange " target="blank">Let's Talk Business</a>
                             </div>
 
                         </div>
