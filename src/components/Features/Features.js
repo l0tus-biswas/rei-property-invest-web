@@ -72,16 +72,14 @@ function Features(){
                     <div className="text-center">
                         <img src={pricePackage} className="img-fluid" alt=""/>
                         <p className="fs-4 fw-bold my-3">Choose a price package</p>
-                        <p className="fs-5">Discuss with us your podio business requirement. We will 100% help you to make
-                            your business successfully. </p>
+                        <p className="fs-5">Choose a price package which suits your business. The more feature you avail, the more you connect with your clients. </p>
                     </div>
                 </div>
                 <div className="col-lg-4 col-md-6 col-12">
                     <div className=" text-center">
                         <img src={deliverPodioPack} className="img-fluid" alt=""/>
                         <p className="fs-4 fw-bold my-3">We deliver your podio pack</p>
-                        <p className="fs-5">Discuss with us your podio business requirement. We will 100% help you to make
-                            your business successfully. </p>
+                        <p className="fs-5">Our Podio customization services guarantee performance efficiency and automation in your business.</p>
                     </div>
                 </div>
             </div>
@@ -153,7 +151,7 @@ function Features(){
 
     <section className="podio-crm-suit-apps back-img mb-5">
         <div className="container py-5  rounded-4">
-            <div className="row text-center mb-3">
+            <div className="row text-center mb-5">
                 <div className="col-12">
                     <h1 className="intro-sub-head">Podio CRM Suite for Real Estate</h1>
                 </div>

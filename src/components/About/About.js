@@ -144,7 +144,7 @@ function About() {
 
     <section className="our-team back-img mb-5 ">
         <div className="container py-5">
-            <div className="row text-center mb-3">
+            <div className="row text-center mb-5">
                 <div className="col-12">
                     <h1 className="intro-sub-head">OUR AMAZING TEAM</h1>
                 </div>

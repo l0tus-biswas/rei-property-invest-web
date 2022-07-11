@@ -102,7 +102,7 @@ function Home() {
 
             <section className="what-do-we-do my-5">
                 <div className="container bg-navyBlue py-5  rounded-4">
-                    <div className="row text-center mb-3">
+                    <div className="row text-center mb-5">
                         <div className="col-12">
                             <h1 className="intro-sub-head">WHAT WE DO</h1>
                         </div>
@@ -142,7 +142,7 @@ function Home() {
                                 <div className="icon"><img src={analysis} alt="" className="mb-3" /></div>
                                 <h6 className="fw-bold fs-5"><span>Citrix Podio Analysis</span></h6>
                                 <p className="fs-5  mt-3">Analytics help you monitor every aspect of your sales cycle and plan targets in the
-                                    future </p>
+                                    future.</p>
                             </div>
                         </div>
                     </div>
@@ -173,7 +173,7 @@ function Home() {
                                             <div id="flush-collapseOne" className="accordion-collapse collapse show"
                                                 aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                                 <div className="accordion-body fs-5">We are backed up with a team of experienced and
-                                                    certified PODIO developers who help clients get powerful solutions to boost
+                                                    certified Podio developers who help clients get powerful solutions to boost
                                                     their business productivity.</div>
                                             </div>
                                         </div>
@@ -203,10 +203,10 @@ function Home() {
                                             </h2>
                                             <div id="flush-collapseThree" className="accordion-collapse collapse"
                                                 aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                                <div className="accordion-body fs-5">Our team of PODIO experts delivers the best Podio
+                                                <div className="accordion-body fs-5">Our team of Podio experts delivers the best Podio
                                                     CRM
                                                     application development solutions. We ensure that our clients get the maximum
-                                                    ROI with custom PODIO develop services.</div>
+                                                    ROI with custom Podio develop services.</div>
                                             </div>
                                         </div>
                                     </div>
@@ -239,7 +239,7 @@ function Home() {
                                 <img src="https://rei-property-invest.netlify.app/assets/images/icon/26.svg" alt="" />
                                 <h2>REI Property Invest unleashes the real power of Podio, and automation that allow you to scale
                                     your Real Estate business quality.</h2>
-                                <p className="fs-4 mt-3">Anuj Kumar Kannojia.</p>
+                                <p className="fs-4 mt-3 ">Anuj Kumar Kannojia.</p>
                                 <p className="fst-italic">CEO & Founder REI Property Invest</p>
                             </div>
                         </div>
@@ -249,7 +249,7 @@ function Home() {
 
             <section className="industry-specific-solution mb-5 ">
                 <div className="container py-5">
-                    <div className="row text-center mb-3">
+                    <div className="row text-center mb-5">
                         <div className="col-12">
                             <h1 className="intro-sub-head">Industry Specific Podio Solutions</h1>
                         </div>
@@ -258,7 +258,7 @@ function Home() {
 
                         </div>
                     </div>
-                    <div className="row justify-content-center mx-lg-5 mx-2 gx-lg-3 gy-lg-3 gx-2 gy-2">
+                    <div className="row justify-content-center gx-lg-3 gy-lg-3 gx-2 gy-2">
                         <div className="col-lg-6 col-md-12 d-flex  " data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100" >
                             <div className="bg-white p-4 borderLeft">
                                 <div className="d-flex align-items-start"><img
@@ -401,7 +401,7 @@ function Home() {
 
             <section className="front-services mb-5">
                 <div className="container py-5  ">
-                    <div className="row text-center mb-3">
+                    <div className="row text-center mb-5">
                         <div className="col-12">
                             <h1 className="intro-sub-head">SERVICES</h1>
                         </div>

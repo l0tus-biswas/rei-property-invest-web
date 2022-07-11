@@ -128,7 +128,7 @@ function Services(){
 
     <section className="services-product back-img mb-5">
         <div className="container p-5  ">
-            <div className="row text-center mb-3">
+            <div className="row text-center mb-5">
                 <div className="col-12">
                     <h1 className="intro-sub-head">SERVICES</h1>
                 </div>
