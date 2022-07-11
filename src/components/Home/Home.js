@@ -30,6 +30,8 @@ import customize_icon from "../../assets/images/services/customize-icon.png"
 import customize from "../../assets/images/services/customize.png"
 import underline_black from "../../assets/images/svg/line-shape-1.svg"
 import { useEffect } from "react"
+import React from 'react';
+import {Link} from 'react-router-dom';
 
 function Home() {
     function ScrollToTopOnMount() {
@@ -340,8 +342,9 @@ function Home() {
                             <div className="mb-4 mb-md-4 mb-lg-0">
                                 <h1 className="intro-sub-head">40+ Integrations</h1>
                                 <h1 className="mb-4 fs-1">Integrate Podio with the software you use every day</h1>
-                                <a href="/our-integration-services" target="blank" className="btn btn-orange me-2 mb-2 col-lg-6 col-md-12 col-12">Check all our
-                                    integrations</a>
+                                    <Link to='/our-integration-services' target="blank"  className="btn btn-orange me-2 mb-2 col-lg-6 col-md-12 col-12">Check all our
+                                    integrations</Link>
+                                    
                             </div>
 
                         </div>
