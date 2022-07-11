@@ -29,6 +29,7 @@ import enhance_expand from "../../assets/images/services/enhance_expand.png"
 import customize_icon from "../../assets/images/services/customize-icon.png"
 import customize from "../../assets/images/services/customize.png"
 import underline_black from "../../assets/images/svg/line-shape-1.svg"
+import quote_img from "../../assets/images/svg/quote.svg"
 import { useEffect } from "react"
 import React from 'react';
 import { Link } from 'react-router-dom';
@@ -238,7 +239,7 @@ function Home() {
                                 <img src={anujDev} className="img-fluid rounded-circle" alt="" />
                             </div>
                             <div className="say">
-                                <img src="https://rei-property-invest.netlify.app/assets/images/icon/26.svg" alt="" />
+                                <img src={quote_img} alt="" />
                                 <h2>REI Property Invest unleashes the real power of Podio, and automation that allow you to scale
                                     your Real Estate business quality.</h2>
                                 <p className="fs-4 mt-3 ">Anuj Kumar Kannojia.</p>
@@ -460,7 +461,7 @@ function Home() {
                     <div className="row gx-lg-5 gx-sm-2">
                         <div className="col-lg-5 col-md-12 col-12 order-lg-2  my-auto  text-white" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="200">
                             <div className="mb-4 mb-md-4 mb-lg-0">
-                                <img src="https://rei-property-invest.netlify.app/assets/images/icon/26.svg" alt="" />
+                                <img src={quote_img} alt="" />
                                 <h1 className="intro-sub-head mt-3">50+ Happy Clients</h1>
                                 <h1 className="fs-1">What’s
                                     Our Client Say
