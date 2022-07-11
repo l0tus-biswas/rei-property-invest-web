@@ -2,7 +2,7 @@ import "./Footer.css"
 function Footer() {
     return (
         <>
-            <div className="container fs-5 fw-bold  ">
+            <div className="container fs-5 ">
                 <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
                     <p className="col-md-4 mb-0 ">© 2022 Company, Inc</p>
 
