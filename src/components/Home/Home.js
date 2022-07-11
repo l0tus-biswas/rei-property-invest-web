@@ -31,7 +31,8 @@ import customize from "../../assets/images/services/customize.png"
 import underline_black from "../../assets/images/svg/line-shape-1.svg"
 import { useEffect } from "react"
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import CookieConsent from "react-cookie-consent";
 
 function Home() {
     function ScrollToTopOnMount() {
@@ -44,6 +45,7 @@ function Home() {
     return (
         <>
             <ScrollToTopOnMount />
+           
             <section className="front-intro bg-deepNavyBlue text-white pt-5">
                 <div className="container">
                     <div className="row gx-lg-5 gx-sm-2 ">
@@ -342,9 +344,9 @@ function Home() {
                             <div className="mb-4 mb-md-4 mb-lg-0">
                                 <h1 className="intro-sub-head">40+ Integrations</h1>
                                 <h1 className="mb-4 fs-1">Integrate Podio with the software you use every day</h1>
-                                    <Link to='/our-integration-services' target="blank"  className="btn btn-orange me-2 mb-2 col-lg-6 col-md-12 col-12">Check all our
+                                <Link to='/our-integration-services' target="blank" className="btn btn-orange me-2 mb-2 col-lg-6 col-md-12 col-12">Check all our
                                     integrations</Link>
-                                    
+
                             </div>
 
                         </div>
@@ -547,6 +549,17 @@ function Home() {
 
                 </div>
             </section>
+
+            <CookieConsent
+                location="bottom"
+                buttonText="I Accept"
+                cookieName="myAwesomeCookieName2"
+                style={{ background: "#164969" }}
+                buttonStyle={{  background: "#eb5e2a", color: "#fff"}}
+                expires={150}
+            >
+                By using our site, you acknowledge that you have read, understand and agree our <a href="/terms-and-privacy" target="blank">Terms & Privacy.</a> 
+            </CookieConsent>
         </>
     );
 }
