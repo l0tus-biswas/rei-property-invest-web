@@ -34,14 +34,14 @@ import { useEffect } from "react"
 function Home() {
     function ScrollToTopOnMount() {
         useEffect(() => {
-          window.scrollTo(0, 0);
+            window.scrollTo(0, 0);
         }, []);
-      
+
         return null;
-      }
+    }
     return (
         <>
-        <ScrollToTopOnMount />
+            <ScrollToTopOnMount />
             <section className="front-intro bg-deepNavyBlue text-white pt-5">
                 <div className="container">
                     <div className="row gx-lg-5 gx-sm-2 ">
@@ -58,7 +58,7 @@ function Home() {
                             </div>
 
                         </div>
-                        <div className="col-lg-6 col-md-12 col-12 order-1 order-lg-2 my-auto"  data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+                        <div className="col-lg-6 col-md-12 col-12 order-1 order-lg-2 my-auto" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
                             <div className="intro-img">
                                 <img src={podioIntro} className="img-fluid" alt="" />
                                 <div className="shapes">
@@ -257,7 +257,7 @@ function Home() {
                         </div>
                     </div>
                     <div className="row justify-content-center mx-lg-5 mx-2 gx-lg-3 gy-lg-3 gx-2 gy-2">
-                        <div className="col-lg-6 col-md-12 d-flex  "  data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100" >
+                        <div className="col-lg-6 col-md-12 d-flex  " data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100" >
                             <div className="bg-white p-4 borderLeft">
                                 <div className="d-flex align-items-start"><img
                                     src={realEstateCRM} alt="icon" className="icon" />
@@ -269,7 +269,7 @@ function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6 col-md-12 d-flex  "  data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+                        <div className="col-lg-6 col-md-12 d-flex  " data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
                             <div className="bg-white p-4 borderLeft">
                                 <div className="d-flex align-items-start"><img src={retailCRM}
                                     alt="icon" className="icon" />
@@ -281,7 +281,7 @@ function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6 col-md-12 d-flex   "  data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">
+                        <div className="col-lg-6 col-md-12 d-flex   " data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">
                             <div className="bg-white p-4 borderLeft">
                                 <div className="d-flex align-items-start"><img
                                     src={manufactureringCRM} alt="icon" className="icon" />
@@ -292,7 +292,7 @@ function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6 col-md-12 d-flex   "  data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
+                        <div className="col-lg-6 col-md-12 d-flex   " data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
                             <div className="bg-white p-4 borderLeft">
                                 <div className="d-flex align-items-start"><img
                                     src={field_serviceCRM} alt="icon"
@@ -304,7 +304,7 @@ function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6 col-md-12 d-flex   "  data-aos="fade-up" data-aos-duration="1200" data-aos-delay="500">
+                        <div className="col-lg-6 col-md-12 d-flex   " data-aos="fade-up" data-aos-duration="1200" data-aos-delay="500">
                             <div className="bg-white p-4 borderLeft">
                                 <div className="d-flex align-items-start"><img
                                     src={travel_hos_CRM} alt="icon" className="icon" />
@@ -316,7 +316,7 @@ function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6 col-md-12 d-flex   "  data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
+                        <div className="col-lg-6 col-md-12 d-flex   " data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
                             <div className="bg-white p-4 borderLeft">
                                 <div className="d-flex align-items-start"><img
                                     src={solarCRM} alt="icon" className="icon" />
@@ -340,7 +340,7 @@ function Home() {
                             <div className="mb-4 mb-md-4 mb-lg-0">
                                 <h1 className="intro-sub-head">40+ Integrations</h1>
                                 <h1 className="mb-4 fs-1">Integrate Podio with the software you use every day</h1>
-                                <a href="our-integration-services" target="blank"  className="btn btn-orange me-2 mb-2 col-lg-6 col-md-12 col-12">Check all our
+                                <a href="/our-integration-services" target="blank" className="btn btn-orange me-2 mb-2 col-lg-6 col-md-12 col-12">Check all our
                                     integrations</a>
                             </div>
 
@@ -419,7 +419,7 @@ function Home() {
                             </div>
 
                         </div>
-                        <div className="col-lg-7 col-md-12 col-12 order-lg-2 order-md-1 order-1 my-auto mx-auto  "  data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">
+                        <div className="col-lg-7 col-md-12 col-12 order-lg-2 order-md-1 order-1 my-auto mx-auto  " data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">
                             <div className="services-img">
                                 <img src={enhance_expand} className="rounded-4" alt="" />
                             </div>
@@ -440,7 +440,7 @@ function Home() {
                             </div>
 
                         </div>
-                        <div className="col-lg-7 col-md-12 col-12 order-lg-1 order-md-1 order-1 my-auto mx-auto  "  data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
+                        <div className="col-lg-7 col-md-12 col-12 order-lg-1 order-md-1 order-1 my-auto mx-auto  " data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
                             <div className="services-img">
                                 <img src={customize} className="rounded-4" alt="" />
                             </div>
@@ -453,7 +453,7 @@ function Home() {
             <section className="testimonials bg-deepNavyBlue mb-5">
                 <div className="container py-5">
                     <div className="row gx-lg-5 gx-sm-2">
-                        <div className="col-lg-5 col-md-12 col-12 order-lg-2  my-auto  text-white"  data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="200">
+                        <div className="col-lg-5 col-md-12 col-12 order-lg-2  my-auto  text-white" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="200">
                             <div className="mb-4 mb-md-4 mb-lg-0">
                                 <img src="https://rei-property-invest.netlify.app/assets/images/icon/26.svg" alt="" />
                                 <h1 className="intro-sub-head mt-3">50+ Happy Clients</h1>
