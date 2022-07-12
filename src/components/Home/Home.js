@@ -65,7 +65,7 @@ function Home() {
                         </div>
                         <div className="col-lg-6 col-md-12 col-12 order-1 order-lg-2 my-auto" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
                             <div className="intro-img">
-                                <img src={podioIntro} className="img-fluid" alt="" />
+                                <img src={podioIntro} className="img-fluid img-shadow" alt="" />
                                 <div className="shapes">
                                     <img src={podioShape} alt="" />
                                     <img src={globiflowShape} alt="" />
@@ -116,7 +116,7 @@ function Home() {
                     </div>
                     <div className="row justify-content-center mx-lg-5 mx-2 gx-lg-3 gy-lg-3 gx-2 gy-2">
                         <div className="col-lg-5 col-md-5 d-flex  " data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
-                            <div className="bg-white p-4 rounded-3">
+                            <div className="bg-white shadowEff p-4 rounded-3">
                                 <div className="icon"><img src={cusstomization} alt="" className="mb-3" /></div>
                                 <h6 className="fw-bold fs-5"><span>Citrix Podio Customization</span>
                                 </h6>
@@ -124,7 +124,7 @@ function Home() {
                             </div>
                         </div>
                         <div className="col-lg-5 col-md-5 d-flex  " data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
-                            <div className="bg-white p-4 rounded-3">
+                            <div className="bg-white shadowEff p-4 rounded-3">
                                 <div className="icon"><img src={integration} alt="" className="mb-3" /></div>
                                 <h6 className="fw-bold fs-5"><span>Citrix Podio Integration</span>
                                 </h6>
@@ -133,7 +133,7 @@ function Home() {
                             </div>
                         </div>
                         <div className="col-lg-5 col-md-5 d-flex " data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">
-                            <div className="bg-white p-4 rounded-3">
+                            <div className="bg-white shadowEff p-4 rounded-3">
                                 <div className="icon"><img src={automation} alt="" className="mb-3" /></div>
                                 <h6 className="fw-bold fs-5"><span>Citrix Podio Automation</span>
                                 </h6>
@@ -141,7 +141,7 @@ function Home() {
                             </div>
                         </div>
                         <div className="col-lg-5 col-md-5 d-flex " data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
-                            <div className="bg-white p-4 rounded-3">
+                            <div className="bg-white shadowEff p-4 rounded-3">
                                 <div className="icon"><img src={analysis} alt="" className="mb-3" /></div>
                                 <h6 className="fw-bold fs-5"><span>Citrix Podio Analysis</span></h6>
                                 <p className="fs-5  mt-3">Analytics help you monitor every aspect of your sales cycle and plan targets in the
@@ -158,7 +158,7 @@ function Home() {
             <section className="why-choose-us mb-5">
                 <div className="container py-5  border">
                     <div className="row gx-lg-5 gx-sm-2">
-                        <div className="col-lg-6 col-md-12 col-12 my-auto" >
+                        <div className="col-lg-6 col-md-12 col-12 my-auto mx-auto" >
                             <div className="mb-4 mb-md-4 mb-lg-0">
                                 <h1 className="intro-sub-head">GET STARTED IN MINUTES</h1>
                                 <h1 className="mb-4 fs-1">3 main Reasons to choose us.</h1>
@@ -236,7 +236,7 @@ function Home() {
                     <div className="row gx-lg-5 gx-sm-2 d-flex justify-content-center ">
                         <div className="col-lg-6 col-md-12 col-12 my-auto text-center">
                             <div className="intro-img mb-4">
-                                <img src={anujDev} className="img-fluid rounded-circle" alt="" />
+                                <img src={anujDev} className="img-fluid rounded-circle " alt="" />
                             </div>
                             <div className="say">
                                 <img src={quote_img} alt="" />
@@ -427,7 +427,7 @@ function Home() {
                         </div>
                         <div className="col-lg-7 col-md-12 col-12 order-lg-2 order-md-1 order-1 my-auto mx-auto  " data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">
                             <div className="services-img">
-                                <img src={enhance_expand} className="rounded-4" alt="" />
+                                <img src={enhance_expand} className="rounded-4 " alt="" />
                             </div>
                         </div>
                     </div>

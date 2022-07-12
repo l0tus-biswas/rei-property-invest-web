@@ -20,6 +20,10 @@
 
 .front-intro .intro-img {
     position: relative;
+    
+}
+.front-intro .intro-img .img-shadow{
+    box-shadow: rgb(99 99 99 / 20%) 0px 12px 18px 0px;
 }
 
 .front-intro .intro-img .shapes img {

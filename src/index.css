@@ -85,3 +85,7 @@ h5 {
 .separated img {
     width: 100%;
 }
+
+.shadowEff {
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+}
