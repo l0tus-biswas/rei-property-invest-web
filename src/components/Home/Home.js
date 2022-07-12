@@ -418,10 +418,7 @@ function Home() {
                             <div className="mt-4 mt-md-4 mt-lg-0">
                                 <img src={enhanceIcon} className="services-icon " width="70" alt="" />
                                 <h4 className="mt-3">Enhance and Expand Your Business Processes </h4>
-                                <p className="mt-3 fs-5">Our experienced Podio Certified consultants specializes in customized Podio
-                                    consulting, integration and implementation to a wide variety of industries that your CRM
-                                    strategy is designed and executed professionally, cost-effectively and with minimal disruption
-                                    to your business.</p>
+                                <p className="mt-3 fs-5">Our experienced Podio Certified consultants specialise in customised Podio consulting, integration, and implementation for a wide variety of industries, ensuring that your CRM strategy is designed and executed professionally, cost-effectively, and with minimal disruption to your business.</p>
                             </div>
 
                         </div>
@@ -439,10 +436,7 @@ function Home() {
                             <div className="mt-4 mt-md-4 mt-lg-0">
                                 <img src={customize_icon} className="services-icon" width="70" alt="" />
                                 <h4 className="mt-3">Customize, Optimize and Fine-Tune Your Podio</h4>
-                                <p className="mt-3 fs-5">We know that off-the-shelf Citrix Podio cannot suffice your unique business needs
-                                    and not able to give the desired outcome, it has to be customized. Understanding your business
-                                    needs, we customize and provide Podio solutions at affordable prices. We guarantee performance
-                                    efficiency and automation in your business.</p>
+                                <p className="mt-3 fs-5">We know that off-the-shelf Citrix Podio cannot satisfy your unique business needs and is not able to give the desired outcome. It has to be customized. Upon understanding your business needs, we customise and provide Podio solutions at affordable prices. We guarantee operational efficiency and automation in your business.</p>
                             </div>
 
                         </div>
