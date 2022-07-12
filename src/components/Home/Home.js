@@ -50,7 +50,7 @@ function Home() {
             <section className="front-intro bg-deepNavyBlue text-white pt-5">
                 <div className="container">
                     <div className="row gx-lg-5 gx-sm-2 ">
-                        <div className="col-lg-6 col-md-12 col-12 order-2 order-lg-1 my-auto">
+                        <div className="col-lg-5 col-md-12 col-12 order-2 order-lg-1 my-auto">
                             <div className="mt-4 mt-md-4 mt-lg-0">
                                 <h1>Citrix Podio</h1>
                                 <img src={underlineOrange} alt="" className="underline-head" />
@@ -63,7 +63,7 @@ function Home() {
                             </div>
 
                         </div>
-                        <div className="col-lg-6 col-md-12 col-12 order-1 order-lg-2 my-auto" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+                        <div className="col-lg-7 col-md-12 col-12 order-1 order-lg-2 my-auto" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
                             <div className="intro-img">
                                 <img src={podioIntro} className="img-fluid img-shadow" alt="" />
                                 <div className="shapes">

@@ -4,7 +4,7 @@
 }
 
 .front-intro h1 {
-    font-size: 63px;
+    font-size: 55px;
 }
 
 @media screen and (max-width: 991px) {
@@ -41,9 +41,9 @@
 .front-intro .intro-img .shapes img:nth-child(2) {
     width: 20%;
     right: 10px;
-    bottom: 0;
+    bottom: -20px;
     animation: jumpTwo 8s infinite linear;
-
+    z-index: 2;
 }
 
 @keyframes jumpOne {

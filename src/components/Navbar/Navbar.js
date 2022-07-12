@@ -25,7 +25,7 @@ function Navbar() {
                             <span className="navbar-toggler-icon"></span>
                         </button>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul className="navbar-nav mx-auto mb-2 mb-lg-0 fs-5 fw-bold">
+                            <ul className="navbar-nav mx-auto mb-2 mb-lg-0 fs-5 ">
                                 <li className="nav-item" >
                                     <NavLink to="/home" className="nav-link px-2 mx-2" aria-current="page">Home</NavLink>
                                 </li>
