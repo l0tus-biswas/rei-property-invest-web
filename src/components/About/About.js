@@ -64,30 +64,19 @@ function About() {
                     <div className="tab-content mt-4" id="pills-tabContent">
                         <div className="tab-pane fade show active" id="pills-home" role="tabpanel"
                             aria-labelledby="pills-home-tab">
-                            <p className="fs-5">Our journey started way back 6 years ago when we started struggling with Podio and Podio
-                                also kept the pace with the advancement in the technologies.</p>
-                            <p className="fs-5">What we discovered at every milestone is to deliver the client best in class service that
-                                the client never calls us back for any bug. Today we have reached with more than 80+
-                                Active clients who ask for Podio customization with 250+ successful jobs done in just
-                                last 2 years.</p>
+                            <p className="fs-5">Our journey started way back 6 years ago when we started struggling with Podio, and Podio also kept pace with the advancement in technology.</p>
+                            <p className="fs-5">What we discovered at every milestone is to deliver the client the best in class service so that the client never calls us back for any bugs. Today we have reached out to more than 80+ Active clients who asked for Podio customization, with 250+ successful jobs done in just the last 2 years.</p>
                         </div>
                         <div className="tab-pane fade" id="pills-profile" role="tabpanel"
                             aria-labelledby="pills-profile-tab">
-                            <p className="fs-5">Our mission is to provide an admirable service to our client. We take their thinking and
-                                business models in deep concern and offer them solutions to achieve that.</p>
+                            <p className="fs-5">Our mission is to provide an admirable service to our clients. We take their thinking and business models with deep concern and offer them solutions to achieve that.</p>
 
-                            <p className="fs-5">We understand every customer has their own need of system and that is why we are fully
-                                service provider of customized solution. After having a 6+ years of experience we
-                                believe we understand your business more than you do and will do anything to level it
-                                up. 😊</p>
+                            <p className="fs-5">We understand every customer has their own needs for systems and that is why we are a full-service provider of customised solutions. After having 6+ years of experience, we believe we understand your business more than you do and will do anything to level it up.  😊</p>
                         </div>
                         <div className="tab-pane fade" id="pills-contact" role="tabpanel"
                             aria-labelledby="pills-contact-tab">
-                            <p className="fs-5"><span className="fst-italic fw-bold ">“Team work makes the dream work”</span> is what we consider as our vision for the past, present
-                                and future.</p>
-                            <p className="fs-5">We don’t work with clients; rather we say we work with partners who continuously strive
-                                to scale up their business. It’s just we who put the magic of code and automations to
-                                help them achieve so.</p>
+                            <p className="fs-5"><span className="fst-italic fw-bold ">“Team work makes the dream work”</span>  is what we consider our vision for the past, present, and future.</p>
+                            <p className="fs-5">We don’t work with clients; rather, we say we work with partners who continuously strive to scale up their business. It is only we who have used the magic of code and automation to assist them.</p>
                         </div>
                     </div>
 

@@ -51,8 +51,7 @@ function Services(){
                     <div className="mb-4 mb-md-4 mb-lg-0">
                         <h1 className="intro-sub-head">You think we integrate</h1>
                         <h1 className="mb-4 fs-1">We are the Podio Integration Experts</h1>
-                        <p className="fs-5">We will customize and integrate Podio with the best business applications/system through REST
-                            /SOAP based web services.</p>
+                        <p className="fs-5">We will customise and integrate Podio with the best business applications and systems through REST/SOAP based web services.</p>
                             <a href="our-integration-services" target="blank" className="btn btn-orange me-2 mb-2 col-lg-6 col-md-12 col-12">Check all our
                             integrations</a>
                     </div>
@@ -142,10 +141,8 @@ function Services(){
                     <div className="mt-4 mt-md-4 mt-lg-0">
                         <h4 className="mt-3">PODIO SUITE FOR REAL ESTATE</h4>
 
-                        <h4 className="fs-1 mt-2">Customizable 25+ Podio in built feature</h4>
-                        <p className="fs-5 mt-3">The only Podio dashbaard you need to get started with your business with power
-                            pack features only at <span className="fw-bold">$1500</span>. This is a one time payment with 3 months free of service on our
-                            product.</p>
+                        <h4 className="fs-1 mt-2">25+ Podio built-in features that can be customised</h4>
+                        <p className="fs-5 mt-3">The only Podio dashboard you need to get started with your business with power pack features is only <span className="fw-bold">$1500</span>. This is a one-time payment with 3 months of free service on our product.</p>
                     </div>
 
                 </div>
@@ -163,9 +160,8 @@ function Services(){
                     <div className="mt-4 mt-md-4 mt-lg-0">
                         <h4 className="mt-3">KPI TRACKER</h4>
 
-                        <h4 className="fs-1 mt-2">Analytical performance of your business sales</h4>
-                        <p className="fs-5 mt-3">KPI Tracker available only at <span className="fw-bold">$49 /- month </span>to track all the activities of the
-                            people working in your organization. To know more <a href="https://www.youtube.com/watch?v=57CkQMqwuAw&feature=youtu.be">click here.</a> </p>
+                        <h4 className="fs-1 mt-2">Analytical sales performance of your company</h4>
+                        <p className="fs-5 mt-3">The KPI Tracker is available only at <span className="fw-bold">$49/month </span>to track all the activities of the people working in your organization. To learn more, <a href="https://www.youtube.com/watch?v=57CkQMqwuAw&feature=youtu.be">click here.</a> </p>
                     </div>
 
                 </div>
@@ -185,9 +181,8 @@ function Services(){
                             BLUK SMS PLATFORM</h4>
 
                         <h4 className="fs-1 mt-2">Powerful and Quick delivery of SMS</h4>
-                        <p className="fs-5 mt-3">You don’t need to purchase any other system when you can directly do the Bulk
-                            SMS Campaigns from Podio itself only at <span className="fw-bold">$49 /- month</span>. You just need a Twilio account and an
-                            Amazon EC-2 server.</p>
+                        <p className="fs-5 mt-3">You don’t need to purchase any other system when you can directly do the Bulk SMS Campaigns from Podio itself for only <span className="fw-bold">$49/month</span>. You just need a Twilio account and an Amazon EC-2 server.
+                            </p>
                     </div>
 
                 </div>

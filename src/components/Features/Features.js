@@ -63,23 +63,22 @@ function Features(){
                 <div className="col-lg-4 col-md-6 col-12">
                     <div className=" text-center">
                         <img src={talkBusiness} className="img-fluid" alt=""/>
-                        <p className="fs-4 fw-bold my-3">Lets talk business</p>
-                        <p className="fs-5">Discuss with us your podio business requirement. We will 100% help you to make
-                            your business successfully. </p>
+                        <p className="fs-4 fw-bold my-3">Let's talk business</p>
+                        <p className="fs-5">Discuss with us your Podio business requirements. We will 100% help you to run your business successfully.</p>
                     </div>
                 </div>
                 <div className="col-lg-4 col-md-6 col-12 arrow-shape">
                     <div className="text-center">
                         <img src={pricePackage} className="img-fluid" alt=""/>
                         <p className="fs-4 fw-bold my-3">Choose a price package</p>
-                        <p className="fs-5">Choose a price package which suits your business. The more feature you avail, the more you connect with your clients. </p>
+                        <p className="fs-5">Choose a price package that suits your business. The more features you make available, the more you connect with your clients. </p>
                     </div>
                 </div>
                 <div className="col-lg-4 col-md-6 col-12">
                     <div className=" text-center">
                         <img src={deliverPodioPack} className="img-fluid" alt=""/>
-                        <p className="fs-4 fw-bold my-3">We deliver your podio pack</p>
-                        <p className="fs-5">Our Podio customization services guarantee performance efficiency and automation in your business.</p>
+                        <p className="fs-4 fw-bold my-3">We deliver your Podio pack</p>
+                        <p className="fs-5">Our Podio customization services guarantee performance, efficiency, and automation in your business.</p>
                     </div>
                 </div>
             </div>
@@ -93,9 +92,7 @@ function Features(){
                     <div className="mb-4 mb-md-4 mb-lg-0">
                         <h1 className="intro-sub-head">Podio Suite</h1>
                         <h1 className="mb-4 fs-1">The Best Selling Real Estate CRM</h1>
-                        <p className="fs-5">Unleash the full potential of the Podio by availing our ultimate product. With
-                            years of experience & prowess in Podio customization, we bring you the only ready to go
-                            fully functionality and customized futuristic soultion for your business</p>
+                        <p className="fs-5">Unleash the full potential of the Podio by using our ultimate product. With years of experience and prowess in Podio customization, we bring you the only ready to go, fully functional and customised futuristic solution for your business.</p>
                     </div>
 
                 </div>
@@ -125,24 +122,21 @@ function Features(){
                     <div className="border  border-1 rounded-3 p-2">
                         <img src={blackTick} className="img-fluid" alt=""/>
                         <p className="fs-4 fw-bold my-2">100% Reliable</p>
-                        <p className="fs-5">We provide cost-effective, high-performing and robust Podio CRM customization
-                            services since its inception.</p>
+                        <p className="fs-5">We have been providing cost-effective, robust, and high-performing  Podio CRM customization services since its inception.</p>
                     </div>
                 </div>
                 <div className="col-lg-4 col-md-6 col-12 mb-lg-0 mb-md-4 mb-4">
                     <div className="border border-1 rounded-3 p-2">
                         <img src={easyCustomization} className="img-fluid" alt=""/>
                         <p className="fs-4 fw-bold my-2">Easy Customization</p>
-                        <p className="fs-5">Perfectly customize fields, layouts, reports, and integrating Podio with other
-                            apps through Citrix Podio Workflow Automation.</p>
+                        <p className="fs-5">Perfectly customise fields, layouts, reports, and integrate Podio with other apps through Citrix Podio Workflow Automation.</p>
                     </div>
                 </div>
                 <div className="col-lg-4 col-md-6 col-12">
                     <div className="border border-1 rounded-3 p-2">
                         <img src={fastSupport} className="img-fluid" alt=""/>
                         <p className="fs-4 fw-bold my-2">Fast Support</p>
-                        <p className="fs-5">We are always here to understand your precise needs, and act accordingly. We
-                            will guide you throughout the journey.</p>
+                        <p className="fs-5">We are always here to understand your precise needs and act accordingly. We will guide you throughout the journey.</p>
                     </div>
                 </div>
             </div>
