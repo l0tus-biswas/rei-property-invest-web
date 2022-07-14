@@ -86,7 +86,7 @@ function Features(){
     </section>
 
     <section className="podio-crm-suit mb-5">
-        <div className="container p-5  border">
+        <div className="container py-5  border">
             <div className="row gx-lg-5 gx-sm-2">
                 <div className="col-lg-6 col-md-12 col-12 my-auto">
                     <div className="mb-4 mb-md-4 mb-lg-0">

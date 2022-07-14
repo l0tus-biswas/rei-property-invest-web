@@ -45,7 +45,7 @@ function Services(){
 
 
     <section className="services-integration back-img  mb-5">
-        <div className="container p-5">
+        <div className="container py-5">
             <div className="row gx-lg-5 gx-sm-2">
                 <div className="col-lg-6 col-md-12 col-12 my-auto">
                     <div className="mb-4 mb-md-4 mb-lg-0">
@@ -109,7 +109,7 @@ function Services(){
     </section>
 
     <section className="contact-separation  mb-5">
-        <div className="container p-5">
+        <div className="container py-5">
             <div className="row gx-lg-5 gx-sm-2 d-flex justify-content-center">
                 <div className="col-lg-7 col-md-12 col-12 my-auto text-center">
                     <div className="mb-4 mb-md-4 mb-lg-0">
@@ -126,7 +126,7 @@ function Services(){
     </section>
 
     <section className="services-product back-img mb-5">
-        <div className="container p-5  ">
+        <div className="container py-5  ">
             <div className="row text-center mb-5">
                 <div className="col-12">
                     <h1 className="intro-sub-head">SERVICES</h1>
