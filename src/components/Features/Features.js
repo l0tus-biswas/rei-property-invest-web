@@ -46,7 +46,7 @@ function Features(){
                         <h1>Get effective solution for your business</h1>
                         <p className="fs-4 mt-3">Get all types of corporate solutions to start your adventure with REI
                             Property Invest</p>
-                            <a href="/video-demos" target="blank" className="btn btn-orange me-2 mb-2 col-lg-8 col-md-7  col-10"> Watch Our Video Tutorials</a>
+                            <a href="/video-demos" target="blank" className="btn btn-orange me-2 mb-2 col-lg-8 col-md-7  col-11"> Watch Our Video Tutorials</a>
                     </div>
                 </div>
             </div>
