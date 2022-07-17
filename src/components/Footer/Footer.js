@@ -1,4 +1,5 @@
 import "./Footer.css"
+import footerImg from "../../assets/images/svg/footer-art.svg"
 function Footer() {
     return (
         <>
@@ -18,6 +19,10 @@ function Footer() {
                         <li className="nav-item"><a href="https://podio.com/webforms/27230732/2095872" target="blank" className="nav-link px-2">Contact</a></li>
                     </ul>
                 </footer>
+                <div className="mb-3">
+                <img src={footerImg}/>
+                </div>
+               
             </div>
 
         </>
