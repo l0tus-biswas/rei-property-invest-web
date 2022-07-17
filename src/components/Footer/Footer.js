@@ -19,6 +19,7 @@ function Footer() {
                         <li className="nav-item"><a href="https://podio.com/webforms/27230732/2095872" target="blank" className="nav-link px-2">Contact</a></li>
                     </ul>
                 </footer>
+                
                 <div className="mb-3">
                 <img src={footerImg}/>
                 </div>
