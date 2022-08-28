@@ -1,5 +1,6 @@
 {
   "name": "rei-property-invest-web",
+  "homepage": "https://www.reipropertyinvest.in/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
