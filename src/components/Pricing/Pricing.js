@@ -40,7 +40,7 @@ function Pricing() {
                             <div className="pr-table-wrapper basic-pricing">
                                 <div className="upper-sec">
                                     <p className="fs-3 fw-bold text-uppercase">Basic</p>
-                                    <p className="fs-1 fw-bold">$350</p>
+                                    <p className="fs-1 fw-bold">$500</p>
                                     <p className="fs-5 text-muted ">Billed Per Agent</p>
                                 </div>
                                 <div className="lower-sec">
@@ -70,7 +70,7 @@ function Pricing() {
                             <div className="pr-table-wrapper premium-pricing">
                                 <div className="upper-sec">
                                     <p className="fs-3 fw-bold text-uppercase">Premium</p>
-                                    <p className="fs-1 fw-bold">$550</p>
+                                    <p className="fs-1 fw-bold">$750</p>
                                     <p className="fs-5 text-muted ">Billed Per Agent</p>
                                 </div>
                                 <div className="lower-sec">
@@ -105,7 +105,7 @@ function Pricing() {
                             <div className="pr-table-wrapper advanced-pricing">
                                 <div className="upper-sec">
                                     <p className="fs-3 fw-bold text-uppercase">Advanced</p>
-                                    <p className="fs-1 fw-bold">$750</p>
+                                    <p className="fs-1 fw-bold">$1000</p>
                                     <p className="fs-5 text-muted ">Billed Per Agent</p>
                                 </div>
                                 <div className="lower-sec">
