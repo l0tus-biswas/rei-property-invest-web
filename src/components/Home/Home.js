@@ -264,7 +264,7 @@ function Home() {
                     <div className="row justify-content-center gx-lg-3 gy-lg-3 gx-2 gy-2">
                         <div className="col-lg-6 col-md-12 d-flex  " data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100" >
                             <div className="bg-white p-4 borderLeft">
-                                <div className="d-flex align-items-start"><img
+                                <div className="d-flex align-items-center"><img
                                     src={realEstateCRM} alt="icon" className="icon" />
                                     <div className="text ps-3">
                                         <h4>Real Estate CRM</h4>
@@ -276,7 +276,7 @@ function Home() {
                         </div>
                         <div className="col-lg-6 col-md-12 d-flex  " data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
                             <div className="bg-white p-4 borderLeft">
-                                <div className="d-flex align-items-start"><img src={retailCRM}
+                                <div className="d-flex align-items-center"><img src={retailCRM}
                                     alt="icon" className="icon" />
                                     <div className="text ps-3">
                                         <h4>Retail CRM</h4>
@@ -288,7 +288,7 @@ function Home() {
                         </div>
                         <div className="col-lg-6 col-md-12 d-flex   " data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">
                             <div className="bg-white p-4 borderLeft">
-                                <div className="d-flex align-items-start"><img
+                                <div className="d-flex align-items-center"><img
                                     src={manufactureringCRM} alt="icon" className="icon" />
                                     <div className="text ps-3">
                                         <h4>Manufacturing CRM</h4>
@@ -299,7 +299,7 @@ function Home() {
                         </div>
                         <div className="col-lg-6 col-md-12 d-flex   " data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
                             <div className="bg-white p-4 borderLeft">
-                                <div className="d-flex align-items-start"><img
+                                <div className="d-flex align-items-center"><img
                                     src={field_serviceCRM} alt="icon"
                                     className="icon" />
                                     <div className="text ps-3">
@@ -311,7 +311,7 @@ function Home() {
                         </div>
                         <div className="col-lg-6 col-md-12 d-flex   " data-aos="fade-up" data-aos-duration="1200" data-aos-delay="500">
                             <div className="bg-white p-4 borderLeft">
-                                <div className="d-flex align-items-start"><img
+                                <div className="d-flex align-items-center"><img
                                     src={travel_hos_CRM} alt="icon" className="icon" />
                                     <div className="text ps-3">
                                         <h4>Travel & Hospitality CRM</h4>
@@ -323,7 +323,7 @@ function Home() {
                         </div>
                         <div className="col-lg-6 col-md-12 d-flex   " data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
                             <div className="bg-white p-4 borderLeft">
-                                <div className="d-flex align-items-start"><img
+                                <div className="d-flex align-items-center"><img
                                     src={solarCRM} alt="icon" className="icon" />
                                     <div className="text ps-3">
                                         <h4>Solar CRM</h4>

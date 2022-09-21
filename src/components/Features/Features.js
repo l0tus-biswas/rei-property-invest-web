@@ -119,21 +119,21 @@ function Features(){
         <div className="container py-5">
             <div className="row d-flex justify-content-center ">
                 <div className="col-lg-4 col-md-6 col-12 mb-lg-0 mb-md-4 mb-4">
-                    <div className="border  border-1 rounded-3 p-2">
+                    <div className="border  border-1 rounded-3 p-3">
                         <img src={blackTick} className="img-fluid" alt=""/>
                         <p className="fs-4 fw-bold my-2">100% Reliable</p>
                         <p className="fs-5">We have been providing cost-effective, robust, and high-performing  Podio CRM customization services since its inception.</p>
                     </div>
                 </div>
                 <div className="col-lg-4 col-md-6 col-12 mb-lg-0 mb-md-4 mb-4">
-                    <div className="border border-1 rounded-3 p-2">
+                    <div className="border border-1 rounded-3 p-3">
                         <img src={easyCustomization} className="img-fluid" alt=""/>
                         <p className="fs-4 fw-bold my-2">Easy Customization</p>
-                        <p className="fs-5">Perfectly customise fields, layouts, reports, and integrate Podio with other apps through Citrix Podio Workflow Automation.</p>
+                        <p className="fs-5">Customize fields, layouts, reports, and integrate Podio with other apps with Citrix Podio Workflow Automation.</p>
                     </div>
                 </div>
                 <div className="col-lg-4 col-md-6 col-12">
-                    <div className="border border-1 rounded-3 p-2">
+                    <div className="border border-1 rounded-3 p-3">
                         <img src={fastSupport} className="img-fluid" alt=""/>
                         <p className="fs-4 fw-bold my-2">Fast Support</p>
                         <p className="fs-5">We are always here to understand your precise needs and act accordingly. We will guide you throughout the journey.</p>
