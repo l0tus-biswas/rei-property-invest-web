@@ -83,6 +83,15 @@ h5 {
     padding: 0 10px 0 10px;
     
     border-radius: 5px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+@media screen and (max-width: 991px) {
+    .intro-sub-head{
+       font-size: 22px;
+      
+   }
 }
 
 .back-img {
