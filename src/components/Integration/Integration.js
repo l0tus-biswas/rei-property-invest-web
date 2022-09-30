@@ -72,7 +72,9 @@ function Integration() {
                     <div className="row gx-lg-5 gx-sm-2">
                         <div className="col-lg-4 col-md-12 col-12 order-lg-2  my-auto  text-white" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="200">
                             <div className="mb-4 mb-md-4 mb-lg-0">
-                                <h1 className="intro-sub-head mt-3">40+ INTEGRATION</h1>
+                                <h1 className="intro-sub-head mt-3">
+                                    <span>40+ INTEGRATION</span>
+                                </h1>
                                 <h1 className="fs-1">Explore Our Integrations</h1>
                             </div>
 

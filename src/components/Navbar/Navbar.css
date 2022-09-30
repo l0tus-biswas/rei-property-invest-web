@@ -21,7 +21,8 @@
 
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
     color: white !important;
-    background-color:  #4a00e0 ;
+    background-color:#30d5c7
+     ;
 }
 
 @media screen and (max-width: 912px) {

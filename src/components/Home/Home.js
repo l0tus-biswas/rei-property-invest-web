@@ -47,13 +47,14 @@ function Home() {
         <>
             <ScrollToTopOnMount />
            
-            <section className="front-intro bg-deepNavyBlue text-white pt-5">
+            <section className="front-intro bg-deepNavyBlue text-white py-5">
                 <div className="container">
                     <div className="row gx-lg-5 gx-sm-2 ">
                         <div className="col-lg-5 col-md-12 col-12 order-2 order-lg-1 my-auto">
                             <div className="mt-4 mt-md-4 mt-lg-0">
-                                <h1>Citrix Podio</h1>
-                                <img src={underlineOrange} alt="" className="underline-head" />
+                                <h1>
+                                    <span>Citrix Podio</span>
+                                </h1>
                                 <h1 className="mb-4">Customization Services</h1>
 
                                 <p className="fs-3 mb-4">Get your CRM customization done right and maximize your Podio Investment</p>
@@ -80,34 +81,17 @@ function Home() {
 
 
             </section>
-            <svg id="wave" style={{ transform: "rotate(180deg)", transition: "0.3s" }} viewBox="0 0 1440 220" version="1.1"
-                xmlns="http://www.w3.org/2000/svg">
-                <defs>
-                    <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
-                        <stop stopColor="rgba(74, 0, 224, 1)" offset="0%"></stop>
-                        <stop stopColor="rgba(74, 0, 224, 1)" offset="100%"></stop>
-                    </linearGradient>
-                </defs>
-                <path style={{ transform: "translate(0, 0px)", opacity: "1" }} fill="url(#sw-gradient-0)"
-                    d="M0,88L60,73.3C120,59,240,29,360,36.7C480,44,600,88,720,91.7C840,95,960,59,1080,44C1200,29,1320,37,1440,40.3C1560,44,1680,44,1800,66C1920,88,2040,132,2160,139.3C2280,147,2400,117,2520,95.3C2640,73,2760,59,2880,47.7C3000,37,3120,29,3240,29.3C3360,29,3480,37,3600,51.3C3720,66,3840,88,3960,102.7C4080,117,4200,125,4320,113.7C4440,103,4560,73,4680,58.7C4800,44,4920,44,5040,44C5160,44,5280,44,5400,36.7C5520,29,5640,15,5760,36.7C5880,59,6000,117,6120,139.3C6240,161,6360,147,6480,146.7C6600,147,6720,161,6840,161.3C6960,161,7080,147,7200,139.3C7320,132,7440,132,7560,117.3C7680,103,7800,73,7920,62.3C8040,51,8160,59,8280,55C8400,51,8520,37,8580,29.3L8640,22L8640,220L8580,220C8520,220,8400,220,8280,220C8160,220,8040,220,7920,220C7800,220,7680,220,7560,220C7440,220,7320,220,7200,220C7080,220,6960,220,6840,220C6720,220,6600,220,6480,220C6360,220,6240,220,6120,220C6000,220,5880,220,5760,220C5640,220,5520,220,5400,220C5280,220,5160,220,5040,220C4920,220,4800,220,4680,220C4560,220,4440,220,4320,220C4200,220,4080,220,3960,220C3840,220,3720,220,3600,220C3480,220,3360,220,3240,220C3120,220,3000,220,2880,220C2760,220,2640,220,2520,220C2400,220,2280,220,2160,220C2040,220,1920,220,1800,220C1680,220,1560,220,1440,220C1320,220,1200,220,1080,220C960,220,840,220,720,220C600,220,480,220,360,220C240,220,120,220,60,220L0,220Z">
-                </path>
-
-                <defs>
-                    <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
-                        <stop stopColor="rgba(14, 14, 23, 1)" offset="0%"></stop>
-                        <stop stopColor="rgba(14, 14, 23, 1)" offset="100%"></stop>
-                    </linearGradient>
-                </defs>
-                <path style={{ transform: "translate(0, 0px)", opacity: "1" }} fill="url(#sw-gradient-0)"
-                    d="M0,40L48,36.7C96,33,192,27,288,40C384,53,480,87,576,96.7C672,107,768,93,864,96.7C960,100,1056,120,1152,110C1248,100,1344,60,1440,36.7C1536,13,1632,7,1728,33.3C1824,60,1920,120,2016,143.3C2112,167,2208,153,2304,146.7C2400,140,2496,140,2592,116.7C2688,93,2784,47,2880,40C2976,33,3072,67,3168,90C3264,113,3360,127,3456,130C3552,133,3648,127,3744,130C3840,133,3936,147,4032,156.7C4128,167,4224,173,4320,173.3C4416,173,4512,167,4608,136.7C4704,107,4800,53,4896,36.7C4992,20,5088,40,5184,63.3C5280,87,5376,113,5472,113.3C5568,113,5664,87,5760,90C5856,93,5952,127,6048,140C6144,153,6240,147,6336,136.7C6432,127,6528,113,6624,106.7C6720,100,6816,100,6864,100L6912,100L6912,200L6864,200C6816,200,6720,200,6624,200C6528,200,6432,200,6336,200C6240,200,6144,200,6048,200C5952,200,5856,200,5760,200C5664,200,5568,200,5472,200C5376,200,5280,200,5184,200C5088,200,4992,200,4896,200C4800,200,4704,200,4608,200C4512,200,4416,200,4320,200C4224,200,4128,200,4032,200C3936,200,3840,200,3744,200C3648,200,3552,200,3456,200C3360,200,3264,200,3168,200C3072,200,2976,200,2880,200C2784,200,2688,200,2592,200C2496,200,2400,200,2304,200C2208,200,2112,200,2016,200C1920,200,1824,200,1728,200C1632,200,1536,200,1440,200C1344,200,1248,200,1152,200C1056,200,960,200,864,200C768,200,672,200,576,200C480,200,384,200,288,200C192,200,96,200,48,200L0,200Z">
-                </path>
-            </svg>
-
+           
+            <svg id="wave" style={{ transform: "rotate(180deg)", transition: "0.3s" }} viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stopColor="rgba(48, 213, 199, 1)" offset="0%"></stop><stop stopColor="rgba(78.823, 157.468, 150.795, 1)" offset="100%"></stop></linearGradient></defs><path style={{ transform: "translate(0, 0px)", opacity: "1" }} fill="url(#sw-gradient-0)" d="M0,70L34.3,70C68.6,70,137,70,206,71.7C274.3,73,343,77,411,75C480,73,549,67,617,63.3C685.7,60,754,60,823,51.7C891.4,43,960,27,1029,31.7C1097.1,37,1166,63,1234,76.7C1302.9,90,1371,90,1440,78.3C1508.6,67,1577,43,1646,41.7C1714.3,40,1783,60,1851,60C1920,60,1989,40,2057,31.7C2125.7,23,2194,27,2263,30C2331.4,33,2400,37,2469,35C2537.1,33,2606,27,2674,25C2742.9,23,2811,27,2880,30C2948.6,33,3017,37,3086,40C3154.3,43,3223,47,3291,46.7C3360,47,3429,43,3497,36.7C3565.7,30,3634,20,3703,13.3C3771.4,7,3840,3,3909,6.7C3977.1,10,4046,20,4114,31.7C4182.9,43,4251,57,4320,66.7C4388.6,77,4457,83,4526,86.7C4594.3,90,4663,90,4731,81.7C4800,73,4869,57,4903,48.3L4937.1,40L4937.1,100L4902.9,100C4868.6,100,4800,100,4731,100C4662.9,100,4594,100,4526,100C4457.1,100,4389,100,4320,100C4251.4,100,4183,100,4114,100C4045.7,100,3977,100,3909,100C3840,100,3771,100,3703,100C3634.3,100,3566,100,3497,100C3428.6,100,3360,100,3291,100C3222.9,100,3154,100,3086,100C3017.1,100,2949,100,2880,100C2811.4,100,2743,100,2674,100C2605.7,100,2537,100,2469,100C2400,100,2331,100,2263,100C2194.3,100,2126,100,2057,100C1988.6,100,1920,100,1851,100C1782.9,100,1714,100,1646,100C1577.1,100,1509,100,1440,100C1371.4,100,1303,100,1234,100C1165.7,100,1097,100,1029,100C960,100,891,100,823,100C754.3,100,686,100,617,100C548.6,100,480,100,411,100C342.9,100,274,100,206,100C137.1,100,69,100,34,100L0,100Z"></path></svg>
             <section className="what-do-we-do my-5">
                 <div className="container bg-navyBlue py-5  rounded-4">
                     <div className="row text-center mb-5">
                         <div className="col-12">
-                            <h1 className="intro-sub-head">WHAT WE DO</h1>
+                            <h1 className="intro-sub-head">
+                                <span>
+                                WHAT WE DO
+                                </span>
+                            </h1>
                         </div>
                         <div className="col-12">
                             <h1 className="fs-1">We help you to elevate your Real Estate Business using Podio</h1>
@@ -160,7 +144,9 @@ function Home() {
                     <div className="row gx-lg-5 gx-sm-2">
                         <div className="col-lg-6 col-md-12 col-12 my-auto mx-auto" >
                             <div className="mb-4 mb-md-4 mb-lg-0">
-                                <h1 className="intro-sub-head">GET STARTED IN MINUTES</h1>
+                                <h1 className="intro-sub-head">
+                                    <span>GET STARTED IN MINUTES</span>
+                                </h1>
                                 <h1 className="mb-4 fs-1">3 main Reasons to choose us.</h1>
 
                                 <div>
@@ -254,7 +240,11 @@ function Home() {
                 <div className="container py-5">
                     <div className="row text-center mb-5">
                         <div className="col-12">
-                            <h1 className="intro-sub-head">Industry Specific Podio Solutions</h1>
+                            <h1 className="intro-sub-head">
+                                <span>
+                                Industry Specific Podio Solutions
+                                </span>
+                            </h1>
                         </div>
                         <div className="col-12">
                             <h1 className="fs-1">Our developers have vast experience on customizations for various domains.</h1>
@@ -343,7 +333,8 @@ function Home() {
                     <div className="row gx-lg-5 gx-sm-2">
                         <div className="col-lg-6 col-md-12 col-12 my-auto">
                             <div className="mb-4 mb-md-4 mb-lg-0">
-                                <h1 className="intro-sub-head">40+ Integrations</h1>
+                                <h1 className="intro-sub-head"><span>
+                                40+ Integrations</span></h1>
                                 <h1 className="mb-4 fs-1">Integrate Podio with the software you use every day</h1>
                                 <Link to='/our-integration-services' target="blank" className="btn btn-orange me-2 mb-2 col-lg-6 col-md-12 col-12">Check all our
                                     integrations</Link>
@@ -406,7 +397,11 @@ function Home() {
                 <div className="container py-5  ">
                     <div className="row text-center mb-5">
                         <div className="col-12">
-                            <h1 className="intro-sub-head">SERVICES</h1>
+                            <h1 className="intro-sub-head">
+                                <span>
+                                SERVICES
+                                </span>
+                            </h1>
                         </div>
                         <div className="col-12">
                             <h1 className="fs-1">We help you to drive growth at your business</h1>
@@ -455,8 +450,9 @@ function Home() {
                     <div className="row gx-lg-5 gx-sm-2">
                         <div className="col-lg-5 col-md-12 col-12 order-lg-2  my-auto  text-white" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="200">
                             <div className="mb-4 mb-md-4 mb-lg-0">
-                                <img src={quote_img} alt="" />
-                                <h1 className="intro-sub-head mt-3">50+ Happy Clients</h1>
+                                <img src={quote_img} alt="" width={100} />
+                                <h1 className="intro-sub-head mt-3"><span>
+                                50+ Happy Clients</span></h1>
                                 <h1 className="fs-1">What’s
                                     Our Client Say
                                     About Us</h1>

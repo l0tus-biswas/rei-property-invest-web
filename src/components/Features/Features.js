@@ -90,7 +90,9 @@ function Features(){
             <div className="row gx-lg-5 gx-sm-2">
                 <div className="col-lg-6 col-md-12 col-12 my-auto">
                     <div className="mb-4 mb-md-4 mb-lg-0">
-                        <h1 className="intro-sub-head">Podio Suite</h1>
+                        <h1 className="intro-sub-head">
+                            <span>Podio Suite</span>
+                        </h1>
                         <h1 className="mb-4 fs-1">The Best Selling Real Estate CRM</h1>
                         <p className="fs-5">Unleash the full potential of the Podio by using our ultimate product. With years of experience and prowess in Podio customization, we bring you the only ready to go, fully functional and customised futuristic solution for your business.</p>
                     </div>
@@ -147,7 +149,8 @@ function Features(){
         <div className="container py-5  rounded-4">
             <div className="row text-center mb-5">
                 <div className="col-12">
-                    <h1 className="intro-sub-head">Podio CRM Suite for Real Estate</h1>
+                    <h1 className="intro-sub-head"><span>
+                    Podio CRM Suite for Real Estate</span></h1>
                 </div>
                 <div className="col-12">
                     <h1 className="fs-1">Imagine being able to perform everything listed below with only a few clicks!</h1>
@@ -284,7 +287,9 @@ function Features(){
                 <div className="col-lg-9 col-md-12 col-12 my-auto">
                     <div className="mb-4 mb-md-4 mb-lg-0">
                         <div className="text-center">
-                            <h1 className="intro-sub-head">FAQ</h1>
+                            <h1 className="intro-sub-head">
+                                <span>FAQs</span>
+                            </h1>
                             <h1 className="mb-4 fs-1">Question & Answer</h1>
 
                         </div>

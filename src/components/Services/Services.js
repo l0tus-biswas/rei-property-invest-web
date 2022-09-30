@@ -49,7 +49,11 @@ function Services(){
             <div className="row gx-lg-5 gx-sm-2">
                 <div className="col-lg-6 col-md-12 col-12 my-auto">
                     <div className="mb-4 mb-md-4 mb-lg-0">
-                        <h1 className="intro-sub-head">You think we integrate</h1>
+                        <h1 className="intro-sub-head">
+                            <span>
+                            You think we integrate
+                            </span>
+                        </h1>
                         <h1 className="mb-4 fs-1">We are the Podio Integration Experts</h1>
                         <p className="fs-5">We will customise and integrate Podio with the best business applications and systems through REST/SOAP based web services.</p>
                             <a href="our-integration-services" target="blank" className="btn btn-orange me-2 mb-2 col-lg-6 col-md-12 col-12">Check all our
@@ -129,7 +133,9 @@ function Services(){
         <div className="container py-5  ">
             <div className="row text-center mb-5">
                 <div className="col-12">
-                    <h1 className="intro-sub-head">SERVICES</h1>
+                    <h1 className="intro-sub-head">
+                        <span>SERVICES</span>
+                    </h1>
                 </div>
                 <div className="col-12">
                     <h1 className="fs-1">We help you to drive growth at your business</h1>

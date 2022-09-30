@@ -40,7 +40,9 @@ function About() {
         <div className="container">
             <div className="row py-5">
                 <div className="col-lg-5 mx-auto my-auto">
-                    <h1 className="intro-sub-head">Over 50+ client</h1>
+                    <h1 className="intro-sub-head">
+                        <span>Over 50+ clients</span>
+                    </h1>
                     <h1 className="mb-4 fs-1">Best Podio Customization Services Company</h1>
                 </div>
                 <div className="col-lg-6 mx-auto my-auto">
@@ -135,7 +137,9 @@ function About() {
         <div className="container py-5">
             <div className="row text-center mb-5">
                 <div className="col-12">
-                    <h1 className="intro-sub-head">OUR AMAZING TEAM</h1>
+                    <h1 className="intro-sub-head">
+                        <span>OUR AMAZING TEAM</span>
+                    </h1>
                 </div>
                 <div className="col-12">
                     <h1 className="fs-1">Meet the Magicians Who Work their magic Using these Props!</h1>

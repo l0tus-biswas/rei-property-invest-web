@@ -1,6 +1,9 @@
 
-.front-intro h1:first-child {
-    color: #7ec7f7;
+.front-intro h1 span{
+    color: white;
+    background-color: #05758A;
+    padding: 0 10px 0 10px;
+    border-radius: 10px;
 }
 
 .front-intro h1 {
