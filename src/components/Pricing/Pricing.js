@@ -86,7 +86,6 @@ function Pricing() {
                                         <li>Feeds app and Communication Logs to display all the
                                             Communications(Inbound &amp; Outbound)</li>
                                         <li id="premium">Third party integrations for SMS, Calls and RVM</li>
-                                        <li id="premium">Follow Up Sequences to follow your Leads</li>
                                         <li id="premium">Drip Campaigns for Emails and Texts</li>
                                         <li id="premium">Street and Aerial View of the property</li>
                                         <li id="premium">KPIs for tracking different sources</li>
@@ -122,10 +121,10 @@ function Pricing() {
                                             Communications(Inbound &amp; Outbound)</li>
 
                                         <li >Third party integrations for SMS, Calls and RVM</li>
-                                        <li>Follow Up Sequences to follow your Leads</li>
                                         <li >Drip Campaigns for Emails and Texts</li>
                                         <li >Street and Aerial View of the property</li>
                                         <li >KPIs for tracking different sources</li>
+                                        <li id="advanced">Follow Up Sequences to follow your Leads</li>
                                         <li id="advanced">Email Blasts to send Email Marketing Campaign</li>
                                         <li id="advanced">KPI and Lead Source to track your Campaigns</li>
                                         <li id="advanced">Street and Aerial View of the property</li>
