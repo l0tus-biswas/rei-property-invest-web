@@ -45,7 +45,7 @@ function Pricing() {
                                 </div>
                                 <div className="lower-sec">
                                     <ul className="pr-feature">
-                                        <li>SMS on Comments for instant messaging to your Leads/Buyers</li>
+                                    <li>SMS on Comments for instant messaging to your Leads/Buyers</li>
                                         <li>Email on Comments for instant messaging to your Leads/Buyers</li>
                                         <li>SMS log app for your all Inbound SMS and reference to Leads/Buyers
                                             app</li>
@@ -75,27 +75,27 @@ function Pricing() {
                                 </div>
                                 <div className="lower-sec">
                                     <ul className="pr-feature">
-                                        <li>SMS on Comments for instant messaging to your Leads/Buyers</li>
-                                        <li>Email on Comments for instant messaging to your Leads/Buyers
-                                        </li>
-                                        <li>Follow Up Sequences to follow your Leads</li>
-                                        <li>Drip Campaigns for Emails and Texts</li>
-                                        <li>Street and Aerial View of the property</li>
-                                        <li>SMS log app for your all Inbound SMS and reference to
+                                    <li>SMS on Comments for instant messaging to your Leads/Buyers</li>
+                                        <li>Email on Comments for instant messaging to your Leads/Buyers</li>
+                                        <li>SMS log app for your all Inbound SMS and reference to Leads/Buyers
+                                            app</li>
+                                        <li>Call logs app for your all Inbound/Outbound Calls and reference to
                                             Leads/Buyers app</li>
-                                        <li>Call logs app for your all Inbound/Outbound Calls and reference
-                                            to Leads/Buyers app</li>
                                         <li>Email Logs for your Inbound/Outbound Emails</li>
                                         <li>Notes Logs for all the notes you make are keep intact</li>
                                         <li>Feeds app and Communication Logs to display all the
                                             Communications(Inbound &amp; Outbound)</li>
-                                        <li>KPIs for tracking different sources</li>
-                                        <li>Third party integrations for SMS, Calls and RVM</li>
+                                        <li id="premium">Third party integrations for SMS, Calls and RVM</li>
+                                        <li id="premium">Follow Up Sequences to follow your Leads</li>
+                                        <li id="premium">Drip Campaigns for Emails and Texts</li>
+                                        <li id="premium">Street and Aerial View of the property</li>
+                                        <li id="premium">KPIs for tracking different sources</li>
+
                                     </ul>
                                 </div>
                                 <div>
-                                <a href=" https://podio.com/webforms/27516595/2138771" target="blank" className="btn btn-outline-orange-tdark col-8 mb-3">Choose Plan</a>
-                                 
+                                    <a href=" https://podio.com/webforms/27516595/2138771" target="blank" className="btn btn-outline-orange-tdark col-8 mb-3">Choose Plan</a>
+
                                     <p className="fw-bold"> With free 24 * 7 assistance for 4 months</p>
 
                                 </div>
@@ -111,31 +111,33 @@ function Pricing() {
                                 <div className="lower-sec">
                                     <ul className="pr-feature">
                                         <li>SMS on Comments for instant messaging to your Leads/Buyers</li>
-                                        <li>Email on Comments for instant messaging to your Leads/Buyers
-                                        </li>
-                                        <li>Follow Up Sequences to follow your Leads</li>
-                                        <li>Drip Campaigns for Emails and Texts</li>
-                                        <li>Email Blasts to send Email Marketing Campaign</li>
-                                        <li>KPI and Lead Source to track your Campaigns</li>
-                                        <li>Street and Aerial View of the property</li>
-                                        <li>Send reminder SMS/Email to your Lead for Appointments</li>
-                                        <li>Separate app for Cash Buyers data and Followups</li>
-                                        <li>Patlive app for your Cold Callers</li>
-                                        <li>Separate app for your Web Leads</li>
-                                        <li>SMS log app for your all Inbound SMS and reference to
+                                        <li>Email on Comments for instant messaging to your Leads/Buyers</li>
+                                        <li>SMS log app for your all Inbound SMS and reference to Leads/Buyers
+                                            app</li>
+                                        <li>Call logs app for your all Inbound/Outbound Calls and reference to
                                             Leads/Buyers app</li>
-                                        <li>Call logs app for your all Inbound/Outbound Calls and reference
-                                            to Leads/Buyers app </li>
-                                        <li> Email Logs for your Inbound/Outbound Emails</li>
-                                        <li> Notes Logs for all the notes you make are keep intact</li>
-                                        <li> Feeds app and Communication Logs to display all the
-                                            Communications(Inbound &amp; Outbound) </li>
-                                        <li> KPIs for tracking different sources</li>
-                                        <li> Third party integrations for SMS, Calls and RVM </li>
+                                        <li>Email Logs for your Inbound/Outbound Emails</li>
+                                        <li>Notes Logs for all the notes you make are keep intact</li>
+                                        <li>Feeds app and Communication Logs to display all the
+                                            Communications(Inbound &amp; Outbound)</li>
+
+                                        <li >Third party integrations for SMS, Calls and RVM</li>
+                                        <li>Follow Up Sequences to follow your Leads</li>
+                                        <li >Drip Campaigns for Emails and Texts</li>
+                                        <li >Street and Aerial View of the property</li>
+                                        <li >KPIs for tracking different sources</li>
+                                        <li id="advanced">Email Blasts to send Email Marketing Campaign</li>
+                                        <li id="advanced">KPI and Lead Source to track your Campaigns</li>
+                                        <li id="advanced">Street and Aerial View of the property</li>
+                                        <li id="advanced">Send reminder SMS/Email to your Lead for Appointments</li>
+                                        <li id="advanced">Separate app for Cash Buyers data and Followups</li>
+                                        <li id="advanced">Patlive app for your Cold Callers</li>
+                                        <li id="advanced">Separate app for your Web Leads</li>
+
                                     </ul>
                                 </div>
                                 <div>
-                                <a href=" https://podio.com/webforms/27516595/2138771" target="blank" className="btn btn-outline-orange-tdark col-8 mb-3">Choose Plan</a>
+                                    <a href=" https://podio.com/webforms/27516595/2138771" target="blank" className="btn btn-outline-orange-tdark col-8 mb-3">Choose Plan</a>
                                     <p className="fw-bold"> With free 24 * 7 assistance for 6 months</p>
 
                                 </div>

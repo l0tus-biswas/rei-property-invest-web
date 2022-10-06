@@ -137,3 +137,12 @@
     top: 9px;
    fill: #ff9301 !important;
 }
+
+.pricing-cards .pr-table-wrapper  .pr-feature #premium {
+    font-weight: 800;
+   
+}
+
+.pricing-cards .pr-table-wrapper  .pr-feature #advanced {
+    font-weight: 800;
+}
