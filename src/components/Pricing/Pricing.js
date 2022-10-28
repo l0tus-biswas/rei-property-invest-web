@@ -127,7 +127,6 @@ function Pricing() {
                                         <li id="advanced">Follow Up Sequences to follow your Leads</li>
                                         <li id="advanced">Email Blasts to send Email Marketing Campaign</li>
                                         <li id="advanced">KPI and Lead Source to track your Campaigns</li>
-                                        <li id="advanced">Street and Aerial View of the property</li>
                                         <li id="advanced">Send reminder SMS/Email to your Lead for Appointments</li>
                                         <li id="advanced">Separate app for Cash Buyers data and Followups</li>
                                         <li id="advanced">Patlive app for your Cold Callers</li>
