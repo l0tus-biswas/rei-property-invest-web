@@ -310,7 +310,7 @@ function Features(){
                                             <ul type="square" className="my-3">
                                                 <li>Podio Premium Account</li>
                                                 <li>SMS Service like Twilio for SMS</li>
-                                                <li>CallRail for Inbound/Outbound Calls</li>
+                                                <li>smrtPhone for Inbound/Outbound Calls</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -346,7 +346,7 @@ function Features(){
                                         <button className="accordion-button collapsed" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
                                             aria-expanded="false" aria-controls="flush-collapseFour">
-                                            <span className="fs-5 fw-bold"> Can I see this system to other clients?  </span>
+                                            <span className="fs-5 fw-bold"> Can I sell this system to other clients?  </span>
                                         </button>
                                     </h2>
                                     <div id="flush-collapseFour" className="accordion-collapse collapse"
